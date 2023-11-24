@@ -1,9 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { useContext } from 'react';
+import Cartcontext from '../context/note/Cartcontext';
 
 
 function Navbar(props) {
   const {b} = props;
+  const {amount} = useContext(Cartcontext)
   return (
     <>
 
@@ -11,10 +14,6 @@ function Navbar(props) {
 
         <Link to="/IphoneIMG" className=" text-white text-2xl font-bold" >{b}</Link>
           
-
-          
-
-
         {/* <div className="flex md:hidden">
           <button className="text-white focus:outline-none">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
@@ -33,7 +32,7 @@ function Navbar(props) {
           <Link to="/Contact" className="hover:text-2xl text-white">Contact</Link>
           <Link to="/LoginForm" className="hover:text-2xl text-white">Login</Link>
         </div>
-      <Link to ="/Addcart" className='hover:text-2xl text-yellow-300 font-bold'>Cart</Link>
+      <Link to ="/Addcart" className='hover:text-2xl text-yellow-300 font-bold'>Cart : {amount}</Link>
       </nav>
     </>
 

@@ -13,7 +13,7 @@ import Signin from './components/Signin';
 import Addcart from './components/Addcart';
 
 
-function App(props) {
+function App() {
   const a = {name:"Govinda",
   age:23,
   Occupation:"WebDevloper",
