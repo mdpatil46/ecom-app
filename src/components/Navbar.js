@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import { useContext } from 'react';
 import Cartcontext from '../context/note/Cartcontext';
@@ -7,6 +7,8 @@ import Cartcontext from '../context/note/Cartcontext';
 function Navbar(props) {
   const {b} = props;
   const {amount} = useContext(Cartcontext)
+const[ismenuopen, setmenuopen] = useState(false);
+
   return (
     <>
 
@@ -14,16 +16,15 @@ function Navbar(props) {
 
         <Link to="/IphoneIMG" className=" text-white text-2xl font-bold" >{b}</Link>
           
-        {/* <div className="flex md:hidden">
-          <button className="text-white focus:outline-none">
+        
+          <button className="flex md:hidden text-white focus:outline-none" onClick={()=> {console.log('Button click'); setmenuopen(!ismenuopen); console.log('Is manu open', ismenuopen); }}>
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                 d="M4 6h16M4 12h16m-7 6h7"></path>
             </svg>
-           
-          </button>
-        </div> */}
+           </button>
+        
 
         <div className="hidden md:flex flex-grow items-center justify-center space-x-4">
           <Link to="/Home" className=" hover:text-2xl text-white  ">Home</Link>
@@ -32,7 +33,7 @@ function Navbar(props) {
           <Link to="/Contact" className="hover:text-2xl text-white">Contact</Link>
           <Link to="/LoginForm" className="hover:text-2xl text-white">Login</Link>
         </div>
-      <Link to ="/Addcart" className='hover:text-2xl text-yellow-300 font-bold'>Cart : {amount}</Link>
+      <Link to ="/Addcart" className='md:flex hidden hover:text-2xl text-yellow-300 font-bold'>Cart : {amount}</Link>
       </nav>
     </>
 
