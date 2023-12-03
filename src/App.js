@@ -5,7 +5,6 @@ import Contact from './components/Contact';
 import Categories from './components/Categories';
 import LoginForm from './components/LoginForm';
 import Shope from './components/Shope';
-import NoteState from './context/note/NoteState';
 // import Main from './components/Main';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import IphoneIMG from './components/IphoneIMG';
@@ -21,7 +20,7 @@ shope :"Apple Store"}
 
   return (
     <>
-    <NoteState>
+   
         <Router>
           <Navbar b={a.shope} />
           <Routes>
@@ -36,8 +35,6 @@ shope :"Apple Store"}
             <Route path='/Addcart' element={<Addcart/>}/>
           </Routes>
         </Router>
-    </NoteState>
-      
     </>
   );
 }

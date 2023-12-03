@@ -1,14 +1,11 @@
 import React from 'react'
-import { useContext } from 'react'
-import NoteContext from '../context/note/NoteContext'
+
 import { Link } from 'react-router-dom';
 
 export default function LoginForm() {
- const {setEmail} = useContext(NoteContext);
 
- const handalChang =(e)=>{
-  setEmail(e.target.value);
- };
+
+
   
   return (
       <>
@@ -34,7 +31,6 @@ export default function LoginForm() {
                 
                 className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
                 placeholder="Email address"
-                onChange={handalChang}
                 
                 
               />

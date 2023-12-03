@@ -1,12 +1,11 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import { useContext } from 'react';
-import Cartcontext from '../context/note/Cartcontext';
+
 
 
 function Navbar(props) {
   const {b} = props;
-  const {amount} = useContext(Cartcontext)
+
 const[ismenuopen, setmenuopen] = useState(false);
 
   return (
@@ -33,7 +32,7 @@ const[ismenuopen, setmenuopen] = useState(false);
           <Link to="/Contact" className="hover:text-2xl text-white">Contact</Link>
           <Link to="/LoginForm" className="hover:text-2xl text-white">Login</Link>
         </div>
-      <Link to ="/Addcart" className='md:flex hidden hover:text-2xl text-yellow-300 font-bold'>Cart : {amount}</Link>
+      <Link to ="/Addcart" className='md:flex hidden hover:text-2xl text-white font-bold'>Cart</Link>
       </nav>
     </>
 

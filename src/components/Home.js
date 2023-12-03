@@ -1,19 +1,19 @@
-import React, { useContext } from 'react'
 import { Link } from 'react-router-dom';
-
-
-import Cartcontext from '../context/note/Cartcontext';
-
+import { useDispatch } from 'react-redux';
+import { addValue } from '../features/valueAdd/valueSlice';
+import { useState } from 'react';
 
 function Main() {
+ 
+  const dispatch = useDispatch();
+  const [num,setNum] = useState( )
 
-const {setamount} = useContext(Cartcontext)
 
-const amountChange=()=>{
-  
-  setamount("1,50,000");
+  const handalButton = (e)=>{
+setNum(e)
+    dispatch(addValue(e))
+  }
 
-};
 
   return (
     <>
@@ -25,7 +25,7 @@ const amountChange=()=>{
           <p className="text-gray-700 mb-4">"The iPhone 15 boasts a stunning display, powerful performance, and advanced camera technology for an exceptional mobile experience."</p>
           <div className="flex justify-between items-center">
             <span className="text-xl font-bold">&#8377;1,50,000</span>
-            <button className="bg-yellow-400 text-black px-3 py-1 rounded-2xl hover:bg-yellow-500 font-bold" onClick={amountChange} >
+            <button className="bg-yellow-400 text-black px-3 py-1 rounded-2xl hover:bg-yellow-500 font-bold" onClick={()=>handalButton('15,00,000')} >
               Add to Cart
             </button>
           </div>
@@ -37,7 +37,7 @@ const amountChange=()=>{
           <p className="text-gray-700 mb-4">"The iPhone 15 boasts a stunning display, powerful performance, and advanced camera technology for an exceptional mobile experience."</p>
           <div className="flex justify-between items-center">
             <span className="text-xl font-bold">&#8377;1,50,000</span>
-            <button className="bg-yellow-400 text-black px-3 py-1 rounded-2xl hover:bg-yellow-500 font-bold" onClick={amountChange}>
+            <button className="bg-yellow-400 text-black px-3 py-1 rounded-2xl hover:bg-yellow-500 font-bold" >
              Add to Cart
             </button>
           </div>
