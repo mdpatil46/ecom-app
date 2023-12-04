@@ -1,7 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import valueSlice from "../features/valueAdd/valueSlice";
+import valueReducer from "../features/valueAdd/valueSlice";
 
 
 export const store = configureStore({
-    reducer: valueSlice
+  reducer: {
+    counter: valueReducer     
+  }
 })
