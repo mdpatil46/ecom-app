@@ -4,6 +4,7 @@ import valueReducer from "../features/valueAdd/valueSlice";
 
 export const store = configureStore({
   reducer: {
-    counter: valueReducer     
+    counter: valueReducer ,
+        
   }
 })
