@@ -23,8 +23,8 @@ rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:s
 
       
      <div className="bg-white  border border-gray-300 rounded-2xl box-content h-90 w-60 p-4 mt-2">
-     <div class="a-column a-span4">
-        <img src="https://m.media-amazon.com/images/G/31/cart/empty/kettle-desaturated._CB424694257_.svg"/>
+     <div className="a-column a-span4">
+        <img src="https://m.media-amazon.com/images/G/31/cart/empty/kettle-desaturated._CB424694257_.svg" alt='MyImg'/>
     </div>
           <h3 className="text-xl font-bold mb-2">Iphone 15 Pro Max</h3>
           <p className="text-gray-700 mb-4">"The iPhone 15 boasts a stunning display, powerful performance, and advanced camera technology for an exceptional mobile experience."</p>

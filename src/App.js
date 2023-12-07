@@ -27,10 +27,10 @@ function App() {
             <Route index element={<IphoneIMG/>}/>
             <Route  path="/IphoneIMG" element={<IphoneIMG/>}/>
             <Route path="/Home" element={<Home />} />
-            <Route psth="/Mac" element={<Mac/>}/> 
-            <Route psth="/Ipad" element={<Ipad/>}/> 
-            <Route psth="/Iphone" element={<Iphone/>}/> 
-            <Route psth="/Watch" element={<Watch/>}/> 
+            <Route path="/Mac" element={<Mac/>}/> 
+            <Route path="/Ipad" element={<Ipad/>}/> 
+            <Route path="/Iphone" element={<Iphone/>}/> 
+            <Route path="/Watch" element={<Watch/>}/> 
             <Route path="/Shope" element={<Shope />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/categories" element={<Categories />} />
