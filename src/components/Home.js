@@ -173,15 +173,18 @@ function Main() {
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-center space-x-6 mt-12">
-          <div className="bg-white h-400 w-500 rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+        <div className="flex justify-center space-x-6 mt-12">
+          <div className="bg-white  h-52 w-72  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
             <div className="h-10 w-9">
-     
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="#007AFF">
-  <path d="M18 20v-1h1v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-1h1v1h12zM22 3a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v13h2V4h16v16H3v1a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1v-1h-2v1zM14 0h1a1 1 0 0 1 1 1v11H14zM7 0h1a1 1 0 0 1 1 1v11H7z"/>
-</svg>
-
-
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="48"
+                height="48"
+                fill="#007AFF"
+              >
+                <path d="M18 20v-1h1v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-1h1v1h12zM22 3a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v13h2V4h16v16H3v1a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1v-1h-2v1zM14 0h1a1 1 0 0 1 1 1v11H14zM7 0h1a1 1 0 0 1 1 1v11H7z" />
+              </svg>
             </div>
             <p className="text-xl text-blue-500 font-semibold  m-10">
               Exchange your
@@ -193,14 +196,84 @@ function Main() {
               get
             </p>
           </div>
-        </div>
-        
-        <div className="mt-20 ml-20">
-          <p className="text-3xl text-black font-bold">
-            Quick Links. 
-          </p>
+
+          <div className="bg-white h-52 w-72  rounded-2xl  relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out ">
+            <div className="h-10 w-9 ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="48"
+                height="48"
+                fill="#007AFF"
+              >
+                <path d="M18 20v-1h1v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-1h1v1h12zM22 3a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v13h2V4h16v16H3v1a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1v-1h-2v1zM14 0h1a1 1 0 0 1 1 1v11H14zM7 0h1a1 1 0 0 1 1 1v11H7z" />
+              </svg>
+            </div>
+            <p className="text-xl text-blue-500 font-semibold  mt-10 ml-5 m-10 ">
+              Exchange your
+            </p>
+            <p className="text-xl text-black font-semibold ">
+              <span className="text-xl text-blue-500 font-semibold ">
+                Smartphone,
+              </span>
+              get
+            </p>
+          </div>
+
+          <div className="bg-white h-52 w-72 rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+            <div className="h-10 w-9">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="48"
+                height="48"
+                fill="#007AFF"
+              >
+                <path d="M18 20v-1h1v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-1h1v1h12zM22 3a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v13h2V4h16v16H3v1a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1v-1h-2v1zM14 0h1a1 1 0 0 1 1 1v11H14zM7 0h1a1 1 0 0 1 1 1v11H7z" />
+              </svg>
+            </div>
+            <p className="text-xl text-blue-500 font-semibold  m-10">
+              Exchange your
+            </p>
+            <p className="text-xl text-black font-semibold ">
+              <span className="text-xl text-blue-500 font-semibold ">
+                Smartphone,
+              </span>
+              get
+            </p>
+          </div>
+
+          <div className="bg-white  h-52 w-72 rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+            <div className="h-10 w-9">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="48"
+                height="48"
+                fill="#007AFF"
+              >
+                <path d="M18 20v-1h1v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-1h1v1h12zM22 3a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v13h2V4h16v16H3v1a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1v-1h-2v1zM14 0h1a1 1 0 0 1 1 1v11H14zM7 0h1a1 1 0 0 1 1 1v11H7z" />
+              </svg>
+            </div>
+            <p className="text-xl text-blue-500 font-semibold  m-10">
+              Exchange your
+            </p>
+            <p className="text-xl text-black font-semibold ">
+              <span className="text-xl text-blue-500 font-semibold ">
+                Smartphone,
+              </span>
+              get
+            </p>
+          </div>
+
+          
+
+          
         </div>
 
+        <div className="mt-20 ml-20">
+          <p className="text-3xl text-black font-bold">Quick Links.</p>
+        </div>
       </div>
 
       {/* <div className=" mx-auto p-4 flex flex-wrap justify-center space-x-2 bg-gray-200 mt-0" >
