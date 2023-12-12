@@ -10,11 +10,15 @@ function Main() {
   //   dispatch(addamount(value))
   // }
 
+setTimeout(() => {
+    document.getElementById('blueE').style = 'background:white; color:black'
+  }, 2000);
+
   return (
     <>
-      <div className="bg-white h-20 w-99 text-black flex items-center ">
+      <div className="bg-blue-800 h-20 w-99 text-white flex items-center " id="blueE">
         <div className="mx-36 text-center ">
-          <p className="text-xm ">
+          <p className="text-xm " >
             Savings starting from ₹22000.00 when you buy iPhone 15 Pro with HDFC
             Bank cashback and trade in iPhone 11 or higher*. Plus spread the
             cost with 6 months No Cost EMI. Shop offer{" "}
@@ -93,7 +97,7 @@ function Main() {
         </div>
         <div className="mt-20 ml-20">
           <p className="text-3xl text-gray-500 font-bold">
-            <span className="text-3xl text-black font-bold">(PRODUCT)RED.</span>{" "}
+            <span className="text-3xl text-red-600 font-bold">(PRODUCT)RED.</span>{" "}
             A collection that makes a world of difference.
           </p>
         </div>

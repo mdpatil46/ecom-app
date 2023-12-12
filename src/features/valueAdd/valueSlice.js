@@ -2,7 +2,8 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
    names: '',
-   amount : ''
+   amount : '',
+   
 }
 
 export const valueSlice = createSlice({

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import { Link } from 'react-router-dom';
 
 function Navbar() {
@@ -9,6 +10,7 @@ function changeNav(isLogoClick){
   let mystyle = document.getElementById("changeNavbar")
   mystyle.style.color = isLogoClick ? "orange" : 'black'; 
   mystyle.style.backgroundColor = isLogoClick ? "black" : 'gray';
+
 }
   return (
     <>
