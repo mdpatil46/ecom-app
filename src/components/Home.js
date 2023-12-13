@@ -10,15 +10,19 @@ function Main() {
   //   dispatch(addamount(value))
   // }
 
-setTimeout(() => {
-    document.getElementById('blueE').style = 'background:white; color:black'
-  }, 2000);
+  setTimeout(() => {
+    document.getElementById("blueE").style =
+      "background:white; color:black;  transition: background-color 1.5s ease;";
+  }, 500);
 
   return (
     <>
-      <div className="bg-blue-800 h-20 w-99 text-white flex items-center " id="blueE">
+      <div
+        className="bg-blue-500 h-20 w-99 text-white flex items-center "
+        id="blueE"
+      >
         <div className="mx-36 text-center ">
-          <p className="text-xm " >
+          <p className="text-xm ">
             Savings starting from ₹22000.00 when you buy iPhone 15 Pro with HDFC
             Bank cashback and trade in iPhone 11 or higher*. Plus spread the
             cost with 6 months No Cost EMI. Shop offer{" "}
@@ -97,7 +101,9 @@ setTimeout(() => {
         </div>
         <div className="mt-20 ml-20">
           <p className="text-3xl text-gray-500 font-bold">
-            <span className="text-3xl text-red-600 font-bold">(PRODUCT)RED.</span>{" "}
+            <span className="text-3xl text-red-600 font-bold">
+              (PRODUCT)RED.
+            </span>{" "}
             A collection that makes a world of difference.
           </p>
         </div>
@@ -273,18 +279,130 @@ setTimeout(() => {
               </svg>
             </div>
             <p className="text-2xl text-lime-500 font-semibold mt-20 ml-7">
-             Enjoy free delivery, or
+              Enjoy free delivery, or
             </p>
             <p className="text-2xl text-lime font-semibold ml-7 ">
-             easy pickup <span className="text-2xl text-black font-semibold">from an</span>
+              easy pickup{" "}
+              <span className="text-2xl text-black font-semibold">from an</span>
             </p>
-            <p className="text-2xl text-black font-semibold ml-7">Apple store.</p>
+            <p className="text-2xl text-black font-semibold ml-7">
+              Apple store.
+            </p>
           </div>
         </div>
 
         <div className="mt-20 ml-20">
           <p className="text-3xl text-black font-bold">Quick Links.</p>
         </div>
+
+        <div className="ml-20 mt-6">
+          <button
+            type="button"
+            class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+          >
+            Order Status
+          </button>
+          <button
+            type="button"
+            class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+          >
+            Shopping Helps
+          </button>
+          <button
+            type="button"
+            class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+          >
+            Your Saves
+          </button>
+        </div>
+
+        <div className="ml-32 mr-32 mt-7">
+          <p>
+            ◊◊ Monthly pricing is after purchase using EMI with qualifying cards
+            at 15% pa over a 6 month tenure. Monthly pricing is rounded to the
+            nearest rupee. Exact pricing will be provided by your bank, subject
+            to your bank’s terms and conditions. Representative example: Based
+            on purchase of ₹79900.00. Total amount payable ₹83432.00 paid over 6
+            months as 6 monthly payments of ₹13905.00 at an interest rate of 15%
+            pa. Total interest paid to bank: ₹3532.00. § No Cost EMI is
+            available with the purchase of an eligible product made using
+            eligible cards on 3- or 6-month tenures from most leading banks.
+            Monthly pricing is rounded to the nearest rupee. Exact pricing will
+            be provided by your bank, subject to your bank’s terms and
+            conditions. Minimum order spend applies as per your card issuing
+            bank threshold. Offer cannot be combined with Apple Store for
+            Education or Corporate Employee Purchase Plan pricing. Card
+            eligibility is subject to terms and conditions between you and your
+            card issuing bank. Offer may be revised or withdrawn at any time
+            without any prior notice. Additional terms apply. Representative
+            example: Based on a 6 month tenure. ₹79900.00 total cost includes
+            15% pa and No Cost EMI savings of ₹3380.00, paid over 6 months as 6
+            monthly payments of ₹13317.00. §§ Instant savings, otherwise
+            referred to as instant cashback, is available with the purchase of
+            an eligible product for qualifying HDFC Bank Credit Cards and
+            EasyEMI Credit Cards only. Minimum transaction value of ₹10001
+            applies. Click here to see instant savings amounts and eligible
+            devices. Instant savings are available for up to two orders per
+            rolling 90-day period with an eligible card. Card eligibility is
+            subject to terms and conditions between you and your card issuing
+            bank. Total transaction value is calculated after any trade-in
+            credit or eligible discount applied. Any subsequent order
+            adjustment(s) or cancellation(s) may result in instant savings being
+            recalculated, and any refund may be adjusted to account for instant
+            savings clawback; this may result in no refund being made to you.
+            Offer may be revised or withdrawn at any time without any prior
+            notice. Additional terms apply. Offer cannot be combined with Apple
+            Store for Education or Corporate Employee Purchase Plan pricing.
+            Multiple separate orders cannot be combined for instant savings. *
+            Trade‑in values will vary based on the condition, year and
+            configuration of your eligible trade‑in device. Not all devices are
+            eligible for credit. You must be at least the age of majority to be
+            eligible to trade in for credit. Trade‑in value may be applied
+            towards a qualifying new device purchase. Actual value awarded is
+            based on receipt of a qualifying device matching the description
+            provided when estimate was made. Sales tax may be assessed on full
+            value of a new device purchase. In-store trade‑in requires
+            presentation of a valid photo ID (local law may require saving this
+            information). Offer may not be available in all stores, and may vary
+            between in-store and online trade‑in. Some stores may have
+            additional requirements. Apple or its trade‑in partners reserve the
+            right to refuse, cancel or limit the quantity of any trade‑in
+            transaction for any reason. More details are available from Apple’s
+            trade‑in partner for trade‑in and recycling of eligible devices.
+            Restrictions and limitations may apply. 2. Special pricing available
+            to qualified customers. To learn more about how to start qualifying
+            for special pricing, talk to an Apple Specialist in a store or give
+            us a call on 000800 040 1966. ° New and qualified returning
+            subscribers only. ₹99/month after free trial. Only one offer per
+            Apple ID and only one offer per family if you’re part of a Family
+            Sharing group, regardless of the number of devices that you or your
+            family purchase. This offer is not available if you or your family
+            have previously accepted an Apple TV+ three-months-free or
+            one-year-free offer. Offer valid for three months after eligible
+            device activation. Plan automatically renews until cancelled.
+            Restrictions and other terms apply. ⁺ New subscribers only.
+            ₹99/month after trial. Offer available for a limited time to new
+            subscribers who connect an eligible device to an Apple device
+            running iOS 15 or iPadOS 15 or later. Offer valid for three months
+            after eligible device pairing. No audio product purchase necessary
+            for current owners of eligible devices. Plan automatically renews
+            until cancelled. Restrictions and other terms apply. ‡ * Price shown
+            refers to MacBook Pro with M3 chip. Listed pricing is Maximum Retail
+            Price (inclusive of all taxes). ‡ Listed pricing is Maximum Retail
+            Price (inclusive of all taxes). We use your location to show you
+            delivery options faster. We found your location using your IP
+            address or because you entered it during a previous visit to Apple.
+          </p>
+        </div>
+         
+         <div className="h-0.5 w-150 bg-gray-600 ml-32 mr-32 mt-4">
+
+         </div>
+
+         <div className="ml-32 mr-32 mt-1 mb-5">
+          <p>Copyright <sup>@</sup>2023 Apple inc. All right reserved.</p>
+         </div>
+
       </div>
 
       {/* <div className=" mx-auto p-4 flex flex-wrap justify-center space-x-2 bg-gray-200 mt-0" >

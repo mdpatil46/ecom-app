@@ -27,15 +27,15 @@ function changeNav(isLogoClick){
            </button>
         
         <div className="hidden md:flex flex-grow items-center justify-center space-x-4">
-          <Link to="/Home" className=" hover:text-2xl  ">Store</Link>
-          <Link to="/Mac" className=" hover:text-2xl   ">Mac</Link>
-          <Link to="/Ipad" className=" hover:text-2xl   ">iPad</Link>
-          <Link to="/Iphone" className=" hover:text-2xl   ">iPhone</Link>
-          <Link to="/Watch" className=" hover:text-2xl   ">Watch</Link>
-          <Link to="/Shope" className=" hover:text-2xl ">AirPods</Link>
-          <Link to="/Categories" className=" hover:text-2xl ">Categories</Link>
-          <Link to="/Contact" className="hover:text-2xl ">Contact</Link>
-          <Link to="/LoginForm" className="hover:text-2xl ">Login</Link>
+          <Link to="/Home" className="  ">Store</Link>
+          <Link to="/Mac" className=" ">Mac</Link>
+          <Link to="/Ipad" className="  ">iPad</Link>
+          <Link to="/Iphone" className="  ">iPhone</Link>
+          <Link to="/Watch" className="  ">Watch</Link>
+          <Link to="/Shope" className=" ">AirPods</Link>
+          <Link to="/Categories" className="">Categories</Link>
+          <Link to="/Contact" className=" ">Contact</Link>
+          <Link to="/LoginForm" className=" ">Login</Link>
         </div>
       <Link to ="/Addcart" className='md:flex hidden hover:text-2xl font-bold'><svg height="48" viewBox="0 0 17 48" width="17" xmlns="http://www.w3.org/2000/svg">
                   <path d="m13.4575 16.9268h-1.1353a3.8394 3.8394 0 0 0 -7.6444 0h-1.1353a2.6032 2.6032 0 0 0 -2.6 2.6v8.9232a2.6032 2.6032 0 0 0 2.6 2.6h9.915a2.6032 2.6032 0 0 0 2.6-2.6v-8.9231a2.6032 2.6032 0 0 0 -2.6-2.6001zm-4.9575-2.2768a2.658 2.658 0 0 1 2.6221 2.2764h-5.2442a2.658 2.658 0 0 1 2.6221-2.2764zm6.3574 13.8a1.4014 1.4014 0 0 1 -1.4 1.4h-9.9149a1.4014 1.4014 0 0 1 -1.4-1.4v-8.9231a1.4014 1.4014 0 0 1 1.4-1.4h9.915a1.4014 1.4014 0 0 1 1.4 1.4z"></path></svg></Link>
