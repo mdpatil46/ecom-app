@@ -1,10 +1,9 @@
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 // import { useDispatch } from 'react-redux';
-
-import { useState } from "react";
-
 // import { addamount } from '../features/valueAdd/valueSlice';
+
 function Main() {
+   
   // const dispatch = useDispatch()
 
   // function clicktoChange (e){
@@ -13,10 +12,11 @@ function Main() {
   //   dispatch(addamount(value))
   // }
 
+  
   setTimeout(() => {
     document.getElementById("blueE").style =
       "background:white; color:black;  transition: background-color 1.5s ease;";
-  }, 500);
+  }, 1000);
 
  
 
@@ -50,30 +50,30 @@ function Main() {
 
         <div className="flex flex-wrap justify-center space-x-6 mt-10">
         
-        <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out" >
+       <Link to= '/Mac'> <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out"  >
        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-mac-nav-202310?wid=200&hei=130&fmt=png-alpha&.v=1696964122666" alt="" />
          <p className="text-black font-semibold ml-24 mt-3">Mac</p>
-          </div>
+          </div></Link>
 
-          <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out" >
+          <Link to = '/Iphone'><div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out" >
        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-iphone-nav-202309_GEO_EMEA?wid=200&hei=130&fmt=png-alpha&.v=1692971740071" alt="" />
          <p className="text-black font-semibold ml-20 mt-3">iPhone</p>
-          </div>
+          </div></Link>
 
-          <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out" >
+          <Link to = '/Ipad'><div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out" >
        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-ipad-nav-202210?wid=200&hei=130&fmt=png-alpha&.v=1664912135437" alt="" />
          <p className="text-black font-semibold ml-20 mt-3">iPad</p>
-          </div>
+          </div> </Link>
 
-          <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out" >
+          <Link to = '/Watch'><div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out" >
        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-watch-nav-202309_GEO_IN?wid=200&hei=130&fmt=png-alpha&.v=1693703814407" alt="" />
          <p className="text-black font-semibold ml-16 mt-2">Apple Watch</p>
-          </div>
+          </div> </Link>
 
-          <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out" >
+          <Link to = '/Shop'><div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out" >
        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airpods-nav-202209?wid=200&hei=130&fmt=png-alpha&.v=1660676485885" alt="" />
          <p className="text-black font-semibold ml-20 mt-2">AirPods</p>
-          </div>
+          </div> </Link>
 
         </div>
 
