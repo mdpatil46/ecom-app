@@ -437,7 +437,7 @@ function Main() {
 
          </div>
 
-         <div className="ml-32 mr-32 mt-1 mb-5">
+         <div className="ml-32 mr-32 mt-1 mb-10">
           <p>Copyright <sup>@</sup>2023 Apple inc. All right reserved.</p>
          </div>
 
