@@ -449,6 +449,27 @@ function Mac() {
           <p className="text-5xl font-semibold ml-20">Mac essentials.</p>
         </div>
 
+        <div className="flex flex-wrap justify-center space-x-10 mt-12">
+          <div className="h-400 w-500 relative overflow-hidden bg-white rounded-lg">
+            <p className='text-2xl font-bold pl-52 pt-12 '>Mac Accessorise</p>
+            <p className="mt-2 ml-36">Explore keybord, mice and other essentials.</p>
+            <img
+              src="https://www.apple.com/v/mac/home/bx/images/overview/essentials/essentials_accessories__dglhsic54owi_large.jpg"
+              alt="" className="mt-40"
+            />
+          </div>
+
+          <div className="h-400 w-500 relative overflow-hidden bg-white rounded-lg ">
+            <p className='text-2xl font-bold pl-52 pt-12 '>Mac Accessorise</p>
+           
+            <img
+              src="https://www.apple.com/v/mac/home/bx/images/overview/essentials/essentials_display__bk3i351qm0c2_large.jpg"
+              alt="" className="mt-40"
+            />
+          </div>
+
+        </div>
+
       </div>
     </>
   );
