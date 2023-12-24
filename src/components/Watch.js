@@ -12,7 +12,7 @@ function Watch() {
       {showDiv1 && <div>This is div 1</div>}
 
       <button onClick={() => setShowDiv2(!showDiv2)}>Show Div 2</button>
-      {showDiv2 && <div>This is div 2</div>}
+      {showDiv2 && <div>This is div 2</div>}ow
     </div>
     </>
   )
