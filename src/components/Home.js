@@ -1,9 +1,8 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 // import { useDispatch } from 'react-redux';
 // import { addamount } from '../features/valueAdd/valueSlice';
 
 function Main() {
-   
   // const dispatch = useDispatch()
 
   // function clicktoChange (e){
@@ -12,20 +11,13 @@ function Main() {
   //   dispatch(addamount(value))
   // }
 
-  
   setTimeout(() => {
     document.getElementById("blueE").style =
       "background:white; color:black;  transition: background-color 1.5s ease;";
   }, 1000);
 
- 
-
-  
- 
- 
   return (
     <>
-    
       <div
         className="bg-blue-700 h-20 w-99 text-white flex items-center "
         id="blueE"
@@ -41,7 +33,7 @@ function Main() {
 
       <div className="mx-auto flex-wrap justify-center  bg-gray-200 mt-0">
         <div className="mr-60">
-          <p className="text-gray-500 text-5xl font-bold mx-60 ml-20">
+          <p className="text-gray-500 text-5xl font-bold mx-60 ml-20 ">
             {" "}
             <span className="text-black text-5xl font-bold">Store.</span> The
             best way to buy the products you love.
@@ -49,32 +41,56 @@ function Main() {
         </div>
 
         <div className="flex flex-wrap justify-center space-x-6 mt-10">
-        
-       <Link to= '/Mac'> <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out"  >
-       <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-mac-nav-202310?wid=200&hei=130&fmt=png-alpha&.v=1696964122666" alt="" />
-         <p className="text-black font-semibold ml-24 mt-3">Mac</p>
-          </div></Link>
+          <Link to="/Mac">
+            {" "}
+            <div className=" md:bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+              <img
+                src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-mac-nav-202310?wid=200&hei=130&fmt=png-alpha&.v=1696964122666"
+                alt=""
+              />
+              <p className="text-black font-semibold ml-24 mt-3">Mac</p>
+            </div>
+          </Link>
 
-          <Link to = '/Iphone'><div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out" >
-       <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-iphone-nav-202309_GEO_EMEA?wid=200&hei=130&fmt=png-alpha&.v=1692971740071" alt="" />
-         <p className="text-black font-semibold ml-20 mt-3">iPhone</p>
-          </div></Link>
+          <Link to="/Iphone">
+            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+              <img
+                src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-iphone-nav-202309_GEO_EMEA?wid=200&hei=130&fmt=png-alpha&.v=1692971740071"
+                alt=""
+              />
+              <p className="text-black font-semibold ml-20 mt-3">iPhone</p>
+            </div>
+          </Link>
 
-          <Link to = '/Ipad'><div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out" >
-       <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-ipad-nav-202210?wid=200&hei=130&fmt=png-alpha&.v=1664912135437" alt="" />
-         <p className="text-black font-semibold ml-20 mt-3">iPad</p>
-          </div> </Link>
+          <Link to="/Ipad">
+            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+              <img
+                src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-ipad-nav-202210?wid=200&hei=130&fmt=png-alpha&.v=1664912135437"
+                alt=""
+              />
+              <p className="text-black font-semibold ml-20 mt-3">iPad</p>
+            </div>{" "}
+          </Link>
 
-          <Link to = '/Watch'><div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out" >
-       <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-watch-nav-202309_GEO_IN?wid=200&hei=130&fmt=png-alpha&.v=1693703814407" alt="" />
-         <p className="text-black font-semibold ml-16 mt-2">Apple Watch</p>
-          </div> </Link>
+          <Link to="/Watch">
+            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+              <img
+                src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-watch-nav-202309_GEO_IN?wid=200&hei=130&fmt=png-alpha&.v=1693703814407"
+                alt=""
+              />
+              <p className="text-black font-semibold ml-16 mt-2">Apple Watch</p>
+            </div>{" "}
+          </Link>
 
-          <Link to = '/Shop'><div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out" >
-       <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airpods-nav-202209?wid=200&hei=130&fmt=png-alpha&.v=1660676485885" alt="" />
-         <p className="text-black font-semibold ml-20 mt-2">AirPods</p>
-          </div> </Link>
-
+          <Link to="/Shop">
+            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+              <img
+                src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airpods-nav-202209?wid=200&hei=130&fmt=png-alpha&.v=1660676485885"
+                alt=""
+              />
+              <p className="text-black font-semibold ml-20 mt-2">AirPods</p>
+            </div>{" "}
+          </Link>
         </div>
 
         <div className=" mt-16 ml-20">
@@ -222,7 +238,7 @@ function Main() {
         </div>
 
         <div className="flex justify-center space-x-7 mt-12">
-          <div className="bg-white  h-70 w-72  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out" >
+          <div className="bg-white  h-70 w-72  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
             <div className="absolute top-6 left-7">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -432,15 +448,14 @@ function Main() {
             address or because you entered it during a previous visit to Apple.
           </p>
         </div>
-         
-         <div className="h-0.5 w-150 bg-gray-600 ml-32 mr-32 mt-4">
 
-         </div>
+        <div className="h-0.5 w-150 bg-gray-600 ml-32 mr-32 mt-4"></div>
 
-         <div className="ml-32 mr-32 mt-1 mb-10">
-          <p>Copyright <sup>@</sup>2023 Apple inc. All right reserved.</p>
-         </div>
-
+        <div className="ml-32 mr-32 mt-1 mb-10">
+          <p>
+            Copyright <sup>@</sup>2023 Apple inc. All right reserved.
+          </p>
+        </div>
       </div>
 
       {/* <div className=" mx-auto p-4 flex flex-wrap justify-center space-x-2 bg-gray-200 mt-0" >
@@ -644,6 +659,8 @@ function Main() {
           </div>
         </div>
       </div> */}
+
+
     </>
   );
 }
