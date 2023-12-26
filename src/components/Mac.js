@@ -142,11 +142,12 @@ function Mac() {
                     <img
                       src="https://www.apple.com/v/mac/home/bx/images/overview/select/product_tile_mba_13__ci4jh6tvqvyq_large.png"
                       alt=""
+                      className="mt-7"
                     />
-                    <p className="text-black text-xl font-semibold ml-14 mt-3">
+                    <p className="text-black text-xl font-semibold ml-5 mt-3 flex justify-center">
                       MacBook Air 13''
                     </p>
-                    <p className="text-black text-xl font-semibold ml-14 mt-3">
+                    <p className="text-black text-xl font-semibold ml-5 mt-3 flex justify-center">
                       M1 chip
                     </p>
                   </div>
@@ -155,11 +156,12 @@ function Mac() {
                     <img
                       src="https://www.apple.com/v/mac/home/bx/images/overview/select/product_tile_mba_13_15__fx2g3qlubdym_large.png"
                       alt=""
+                      className="mt-3"
                     />
-                    <p className="text-black text-xl font-semibold ml-5 mt-3">
+                    <p className="text-black text-xl font-semibold ml-3 mt-3 flex justify-center">
                       MacBook Air 13'' and 15''
                     </p>
-                    <p className="text-black text-xl font-semibold ml-5 mt-3">
+                    <p className="text-black text-xl font-semibold ml-3 mt-3 flex justify-center">
                       M2 chip
                     </p>
                   </div>
@@ -169,10 +171,10 @@ function Mac() {
                       src="https://www.apple.com/v/mac/home/bx/images/overview/select/product_tile_mbp_14_16__bkl8zusnkpw2_large.png"
                       alt=""
                     />
-                    <p className="text-black text-xl font-semibold ml-5 mt-3">
+                    <p className="text-black text-xl font-semibold ml-5 mt-3 flex justify-center">
                       Mac Book Pro 14'' and 16''
                     </p>
-                    <p className="text-black text-xl font-semibold ml-5 mt-3">
+                    <p className="text-black text-xl font-semibold ml-5 mt-3 flex justify-center">
                       M3, M3 pro or M3 Max chip{" "}
                     </p>
                   </div>
@@ -181,42 +183,44 @@ function Mac() {
             )}
             {div2 && (
               <div>
-                <div className="flex flex-wrap justify-center space-x-6 mt-10">
-                  <div className="bg-gray-200  h-80 w-82  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+                <div className="flex flex-wrap justify-center space-x-6 mt-10  ">
+                  <div className="bg-gray-200  h-86 w-82  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
                     <img
                       src="https://www.apple.com/v/mac/home/bx/images/overview/select/product_tile_imac_24__inq0od011wuq_large.png"
                       alt=""
                     />
-                    <p className="text-black text-xl font-semibold ml-14 mt-3">
+                    <p className="text-black text-xl font-semibold mt-3  flex justify-center">
                       iMac
                     </p>
-                    <p className="text-black text-xl font-semibold ml-14 mt-3">
+                    <p className="text-black text-xl font-semibold mt-2 flex justify-center">
                       M3 chip
                     </p>
                   </div>
 
-                  <div className="bg-gray-200  h-80 w-82  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+                  <div className="bg-gray-200  h-86 w-82  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
                     <img
                       src="https://www.apple.com/v/mac/home/bx/images/overview/select/product_tile_mac_mini__c4284n3j25w2_large.png"
                       alt=""
+                      className="mt-60"
                     />
-                    <p className="text-black text-xl font-semibold ml-5 mt-3">
+                    <p className="text-black text-xl font-semibold ml-5 mt-5 flex justify-center">
                       Mac mini
                     </p>
-                    <p className="text-black text-xl font-semibold ml-5 mt-3">
+                    <p className="text-black text-xl font-semibold ml-5 mt-3 flex justify-center">
                       M2 or M2 Pro chip
                     </p>
                   </div>
 
-                  <div className="bg-gray-200  h-80 w-82  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+                  <div className="bg-gray-200  h-86 w-82  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
                     <img
                       src="https://www.apple.com/v/mac/home/bx/images/overview/select/product_tile_mac_studio__c24lhkuq4vee_large.png"
                       alt=""
+                      className="mt-52"
                     />
-                    <p className="text-black text-xl font-semibold ml-5 mt-3">
+                    <p className="text-black text-xl font-semibold ml-5 mt-5 flex justify-center">
                       Max Studio
                     </p>
-                    <p className="text-black text-xl font-semibold ml-5 mt-3">
+                    <p className="text-black text-xl font-semibold ml-5 mt-3 flex justify-center">
                       M2 Max or M2 Ultra chip
                     </p>
                   </div>
@@ -230,11 +234,12 @@ function Mac() {
                     <img
                       src="https://www.apple.com/v/mac/home/bx/images/overview/select/product_tile_studio_display__c0gbtkgtsx0m_large.png"
                       alt=""
+                      className="mt-5"
                     />
-                    <p className="text-black text-xl font-semibold ml-14 mt-3">
+                    <p className="text-black text-xl font-semibold ml-2 mt-3 flex justify-center">
                       iMac
                     </p>
-                    <p className="text-black text-xl font-semibold ml-14 mt-3">
+                    <p className="text-black text-xl font-semibold ml-2 mt-3 flex justify-center">
                       M3 chip
                     </p>
                   </div>
@@ -244,10 +249,10 @@ function Mac() {
                       src="https://www.apple.com/v/mac/home/bx/images/overview/select/product_tile_pro_display__duklzyfwl92e_large.png"
                       alt=""
                     />
-                    <p className="text-black text-xl font-semibold ml-5 mt-3">
+                    <p className="text-black text-xl font-semibold ml-1 mt-3 flex justify-center">
                       Mac mini
                     </p>
-                    <p className="text-black text-xl font-semibold ml-5 mt-3">
+                    <p className="text-black text-xl font-semibold ml-1 mt-3 flex justify-center">
                       M2 or M2 Pro chip
                     </p>
                   </div>
