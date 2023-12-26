@@ -1,15 +1,8 @@
 import { Link } from "react-router-dom";
-// import { useDispatch } from 'react-redux';
-// import { addamount } from '../features/valueAdd/valueSlice';
+
 
 function Main() {
-  // const dispatch = useDispatch()
-
-  // function clicktoChange (e){
-
-  //   let value = '150000'
-  //   dispatch(addamount(value))
-  // }
+  
 
   setTimeout(() => {
     document.getElementById("blueE").style =
@@ -170,7 +163,7 @@ function Main() {
             />
 
             <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-black text-3xl">
-              Choose (RED).
+              Choose (<span className="text-red-600" >RED</span>).
             </p>
             <p className="absolute top-0 left-0 pt-20 pl-5 font-semibold text-black text-3xl">
               Save lives.
@@ -203,9 +196,11 @@ function Main() {
             <p className="absolute bottom-0 left-0 text-gray-700 pb-5 pl-5 text-l font-semibold">
               no cost EMI or &#8377;69900.00
             </p>
+              <Link to='/Allinone'>
             <button className="absolute bottom-7 right-6 p-2 bg-blue-600  text-white text-xl   rounded-3xl flex items-center justify-center">
               Buy
             </button>
+              </Link>
           </div>
           <div className="bg-white h-400 w-500  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <img
@@ -222,9 +217,11 @@ function Main() {
             <p className="absolute bottom-0 left-0 text-gray-700 pb-10 pl-5 text-l font-semibold">
               From &#8377;41900.00
             </p>
+            <Link to='/Allinone'>
             <button className="absolute bottom-8 right-6 p-2 bg-blue-600  text-white text-xl   rounded-3xl flex items-center justify-center">
               Buy
             </button>
+            </Link>
           </div>
         </div>
 

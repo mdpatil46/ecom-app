@@ -14,6 +14,7 @@ import Mac from './components/Mac';
 import Ipad from './components/Ipad';
 import Iphone from './components/Iphone';
 import Watch from './components/Watch';
+import Allinone from './components/Allinone';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
             <Route path="/LoginForm" element={<LoginForm />} />
             <Route path='/Signin' element={<Signin/>}/>
             <Route path='/Addcart' element={<Addcart/>}/>
+            <Route path='/Allinone' element={<Allinone/>}/>
           </Routes>
         </Router>
     </>
