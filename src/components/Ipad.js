@@ -1,15 +1,41 @@
-import React from 'react'
+import React from "react";
 
 function Ipad() {
+  setTimeout(() => {
+    document.getElementById("blue").style =
+      "background:#1D1D1F; color:white; font-weight:bold;  transition: background-color 1.5s ease;";
+  }, 1000);
   return (
     <>
-      <div class="text-blue-500 sm:text-green-500 md:text-yellow-500 lg:text-orange-500 xl:text-red-500 text-5xl font-bold">
-  This text will have different colors on different screen sizes.
-</div>
+      <div
+        className="bg-blue-700 h-20 w-99 text-white flex items-center"
+        id="blue"
+      >
+        <div className="mx-80 text-center ">
+          <p className="text-sm ">
+            Save up to ₹4000.00 instantly on selected iPad models with HDFC Bank
+            Credit Cards.+ Plus No Cost EMI from most leading banks.‡.
+          </p>
+        </div>
+      </div>
 
-
+      <div className=" bg-black ">
+        <div>
+          <p className="text-white text-5xl font-extrabold mb-96 ml-10  ">iPad Pro <span className="text-xl text-white font-bold "> Supercharge by <img src="https://www.apple.com/v/ipad/home/ch/images/overview/hero/m2_chip__buj2soxeo91e_large.png" alt="" /> </span></p>
+        </div>
+         
+        <div className="flex justify-end items-end">
+          
+          
+          <img
+            src="https://www.apple.com/in/ipad/home/images/overview/hero/ipad_pro_hero__bh3eq6sqfjw2_large.jpg"
+            alt="ipadimage "
+            
+          />
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default Ipad
+export default Ipad;

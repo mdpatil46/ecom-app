@@ -465,8 +465,8 @@ function Mac() {
           </div>
 
           <div className="h-400 w-500 relative overflow-hidden bg-white rounded-lg ">
-            <p className='text-2xl font-bold pl-52 pt-12 '>Mac Accessorise</p>
-           
+            <p className='text-2xl font-bold pl-52 pt-12 '>Studio Display</p>
+            <p className="mt-2 ml-20">The 68.29 cm (27″) 5K Retina display pairs beautifully with any Mac.</p>
             <img
               src="https://www.apple.com/v/mac/home/bx/images/overview/essentials/essentials_display__bk3i351qm0c2_large.jpg"
               alt="" className="mt-40"
@@ -474,11 +474,9 @@ function Mac() {
           </div>
         </div>
 
-        <div className="mt-32">
-          <p className="text-5xl font-semibold ml-20">Mac</p>
-        </div>
+       
 
-        <div className="ml-32 mr-32 mt-16">
+        <div className="ml-32 mr-32 mt-52">
           <p>
             ◊◊ Monthly pricing is after purchase using EMI with qualifying cards
             at 15% pa over a 6 month tenure. Monthly pricing is rounded to the
