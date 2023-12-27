@@ -12,11 +12,11 @@ function Main() {
   return (
     <>
       <div
-        className="bg-blue-700 h-20 w-99 text-white flex items-center "
+        className="bg-blue-700 h-18 w-full text-white flex items-center sm:h-20 "
         id="blueE"
       >
-        <div className="mx-36 text-center ">
-          <p className="text-xm ">
+        <div className=" m-2 sm:mx-36 text-center ">
+          <p className="text-xs sm:text-sm ">
             Savings starting from ₹22000.00 when you buy iPhone 15 Pro with HDFC
             Bank cashback and trade in iPhone 11 or higher*. Plus spread the
             cost with 6 months No Cost EMI. Shop offer{" "}
@@ -24,16 +24,16 @@ function Main() {
         </div>
       </div>
 
-      <div className="mx-auto flex-wrap justify-center  bg-gray-200 mt-0">
-        <div className="mr-60">
-          <p className="text-gray-500 text-5xl font-bold mx-60 ml-20 ">
+      <div className=" mx-auto flex-wrap justify-center  bg-gray-200 mt-0">
+        <div className=" sm:mr-60">
+          <p className=" text-gray-500 text-2xl font-semibold mx-32 ml-10 sm:text-gray-500 sm:text-5xl sm:font-bold sm:mx-60 sm:ml-20 ">
             {" "}
-            <span className="text-black text-5xl font-bold">Store.</span> The
+            <span className="text-2xl text-black sm:text-5xl font-bold">Store.</span> The
             best way to buy the products you love.
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-center space-x-6 mt-10">
+        <div className=" flex  justify-center space-x-6 mt-10 overflow-y-scroll ">
           <Link to="/Mac">
             {" "}
             <div className=" md:bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
@@ -84,16 +84,37 @@ function Main() {
               <p className="text-black font-semibold ml-20 mt-2">AirPods</p>
             </div>{" "}
           </Link>
+
+          <Link to="/Shop">
+            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+              <img
+                src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airpods-nav-202209?wid=200&hei=130&fmt=png-alpha&.v=1660676485885"
+                alt=""
+              />
+              <p className="text-black font-semibold ml-20 mt-2">AirPods</p>
+            </div>{" "}
+          </Link>
+
+         <Link to="/Shop">
+            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+              <img
+                src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airpods-nav-202209?wid=200&hei=130&fmt=png-alpha&.v=1660676485885"
+                alt=""
+              />
+              <p className="text-black font-semibold ml-20 mt-2">AirPods</p>
+            </div>{" "}
+          </Link>
+
         </div>
 
-        <div className=" mt-16 ml-20">
-          <p className="text-gray-500 text-4xl font-bold">
-            <span className=" text-black text-4xl font-bold">The latest.</span>
+        <div className="mt-8 ml-5 mr-3 sm:mt-16 sm:ml-20 ">
+          <p className="text-gray-500 text-2xl font-semibold sm:text-4xl sm:font-bold">
+            <span className=" text-black text-2xl font-semibold sm:text-4xl sm:font-bold">The latest.</span>
             Take a look at what’s new right now.
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-center space-x-6 mt-12">
+        <div className="flex  justify-center space-x-6 mt-12 overfloe-y-scroll">
           <div className="bg-white h-400 w-500 rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <img
               src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692719973220"
@@ -146,18 +167,18 @@ function Main() {
             </p>
           </div>
         </div>
-        <div className="mt-20 ml-20">
-          <p className="text-3xl text-gray-500 font-bold">
-            <span className="text-3xl text-red-600 font-bold">
+        <div className="mt-10 ml-5 sm:mt-20 sm:ml-20">
+          <p className="text-2xl font-semibold sm:text-3xl text-gray-500 sm:font-bold">
+            <span className="text-2xl font:semibold sm:text-3xl text-red-600 sm:font-bold">
               (PRODUCT)RED.
             </span>{" "}
             A collection that makes a world of difference.
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-center space-x-6 mt-12">
+        <div className="flex justify-center space-x-6 mt-12 overflow-y-scroll">
           <div className="bg-white h-400 w-500 rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-300 ease-in-out">
-            <img
+            <img 
               src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-40-merch-card-productred-202311?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1698942978880"
               alt=""
             />
@@ -223,18 +244,21 @@ function Main() {
             </button>
             </Link>
           </div>
+
+          
+
         </div>
 
-        <div className="mt-20 ml-20">
-          <p className="text-3xl text-gray-500 font-bold">
-            <span className="text-3xl text-black font-bold">
+        <div className="mt-10 ml-5 mr-3 sm:mt-20 sm:ml-20">
+          <p className="text-2xl font-semibold sm:text-3xl text-gray-500 sm:font-bold">
+            <span className="text-2xl font-semibold sm:text-3xl text-black sm:font-bold">
               The Apple Store difference.
             </span>{" "}
             Even more reasons to shop with us.
           </p>
         </div>
 
-        <div className="flex justify-center space-x-7 mt-12">
+        <div className="flex justify-center space-x-7 mt-12 ">
           <div className="bg-white  h-70 w-72  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
             <div className="absolute top-6 left-7">
               <svg
@@ -342,17 +366,18 @@ function Main() {
           </div>
         </div>
 
-        <div className="mt-20 ml-20">
+        <div className="ml-10  mt-20 sm:ml-20">
           <p className="text-3xl text-black font-bold">Quick Links.</p>
         </div>
 
-        <div className="ml-20 mt-6">
-          <button
-            type="button"
-            class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-          >
-            Order Status
-          </button>
+        <div className="ml-0 mt-5 sm:ml-20 sm:mt-6">
+        <button
+  type="button"
+  class="py-2.5 px-5 me-2 mb-2 text-sm sm:text-base font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+>
+  Order Status
+</button>
+
           <button
             type="button"
             class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
@@ -367,7 +392,7 @@ function Main() {
           </button>
         </div>
 
-        <div className="ml-32 mr-32 mt-7">
+        <div className="ml-5 mr-5 mt-3 sm:ml-32 sm:mr-32 sm:mt-7">
           <p>
             ◊◊ Monthly pricing is after purchase using EMI with qualifying cards
             at 15% pa over a 6 month tenure. Monthly pricing is rounded to the
@@ -446,9 +471,9 @@ function Main() {
           </p>
         </div>
 
-        <div className="h-0.5 w-150 bg-gray-600 ml-32 mr-32 mt-4"></div>
+        <div className=" ml-5 mr-5 h-0.5 w-150 bg-gray-600 sm:ml-32 sm:mr-32 mt-4"></div>
 
-        <div className="ml-32 mr-32 mt-1 mb-10">
+        <div className="ml-10 mr-10  sm:ml-32 sm:mr-32 mt-1 mb-10">
           <p>
             Copyright <sup>@</sup>2023 Apple inc. All right reserved.
           </p>

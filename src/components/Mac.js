@@ -17,11 +17,11 @@ function Mac() {
   return (
     <>
       <div
-        className="bg-black h-20 w-99 text-white flex items-center"
+        className="bg-black h-18 w-full text-white flex items-center sm:h-20"
         id="blue"
       >
-        <div className="mx-80 text-center ">
-          <p className="text-xm ">
+        <div className="m-2 sm:mx-80 text-center ">
+          <p className="text-xs sm:text-base">
             Get up to ₹8000.00 instant savings on selected Mac models with
             eligible HDFC Bank cards. Footnote §§ Plus No Cost EMI from most
             leading banks.
@@ -31,16 +31,16 @@ function Mac() {
 
       <div className="mx-auto flex-wrap justify-center  bg-gray-200 mt-0">
         <header className="flex items-end justify-between ">
-          <div className="mt-5">
-            <p className="text-7xl font-bold ml-20">Mac</p>
+          <div className="mt-5 sm:mt-5">
+            <p className=" text-5xl ml-5 sm:text-7xl font-bold sm:ml-20">Mac</p>
           </div>
-          <div className="mr-36 mt-5" id="mydiv">
-            <p className="text-3xl font-semibold ">If you can dream it,</p>
-            <p className="text-3xl font-semibold ">Mac can do it.</p>
+          <div className="mr-3 mt-5  sm:mr-36 sm:mt-5" id="mydiv">
+            <p className="text-xl sm:text-3xl font-semibold ">If you can dream it,</p>
+            <p className="text-xl sm:text-3xl font-semibold ">Mac can do it.</p>
           </div>
         </header>
 
-        <div className="mt-16 ml-64">
+        <div className="mt-16 ml-2 mr-2 sm:mt-16 sm:ml-64">
           <img
             src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/dd5a2696843823.5eb7d53e75418.gif"
             className="rounded-3xl "
@@ -49,7 +49,7 @@ function Mac() {
         </div>
 
         <div>
-          <p className="text-7xl font-bold ml-20 mt-20">Get to know Mac.</p>
+          <p className="text-3xl ml-5 mt-10 sm:text-7xl font-semibold sm:ml-20 sm:mt-20">Get to know Mac.</p>
         </div>
 
         <div className="flex flex-wrap justify-center space-x-6 mt-12">
@@ -95,9 +95,9 @@ function Mac() {
         </div>
 
         <div>
-          <p className="text-7xl font-bold ml-20 mt-44">Explore the line-up</p>
+          <p className="text-3xl font-semibold ml-5 mt-12  sm:text-7xl sm:font-bold sm:ml-20 sm:mt-44">Explore the line-up</p>
         </div>
-        <div className="ml-20 mt-20">
+        <div className="ml-7 mt-10 sm:ml-20 sm:mt-20">
           <button
             type="button"
             className="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
@@ -262,11 +262,11 @@ function Mac() {
           </div>
         </div>
 
-        <div className="mt-5">
-          <p className="text-5xl font-semibold ml-20">
-            Why Apple is bast place{" "}
+        <div className="mt-3 sm:mt-5">
+          <p className="text-3xl ml-5 sm:text-5xl font-semibold sm:ml-20">
+            Why Apple is bast  {" "}
           </p>
-          <p className="text-5xl font-semibold ml-20">to buy Mac.</p>
+          <p className="text-3xl ml-5 sm:text-5xl font-semibold sm:ml-20">place to buy Mac.</p>
         </div>
 
         <div className="flex justify-center space-x-7 mt-12">
@@ -386,8 +386,8 @@ function Mac() {
           </div>
         </div>
 
-        <div className="mt-52">
-          <p className="text-5xl font-semibold ml-20">Significant others.</p>
+        <div className="mt-32 sm:mt-52">
+          <p className="text-3xl ml-5 sm:text-5xl font-semibold sm:ml-20">Significant others.</p>
         </div>
 
         <div className="h-auto w-auto bg-white mt-20 rounded-3xl">
@@ -450,8 +450,8 @@ function Mac() {
           </div>
         </div>
 
-        <div className="mt-52">
-          <p className="text-5xl font-semibold ml-20">Mac essentials.</p>
+        <div className="mt-32 sm:mt-52">
+          <p className="text-3xl ml-5 sm:text-5xl font-semibold sm:ml-20">Mac essentials.</p>
         </div>
 
         <div className="flex flex-wrap justify-center space-x-10 mt-12">
@@ -476,7 +476,7 @@ function Mac() {
 
        
 
-        <div className="ml-32 mr-32 mt-52">
+        <div className="ml-5 mr-5  sm:ml-32 sm:mr-32 mt-52">
           <p>
             ◊◊ Monthly pricing is after purchase using EMI with qualifying cards
             at 15% pa over a 6 month tenure. Monthly pricing is rounded to the
@@ -555,11 +555,11 @@ function Mac() {
           </p>
         </div>
 
-        <div className="h-0.5 w-150 bg-gray-600 ml-32 mr-32 mt-4">
+        <div className="h-0.5 w-150 bg-gray-600 ml-5 mr-5 sm:ml-32 sm:mr-32 mt-4">
 
 </div>
 
-<div className="ml-32 mr-32 mt-1 mb-10">
+<div className="ml-6 mr-6 sm:ml-32 sm:mr-32 mt-1 mb-10">
  <p>Copyright <sup>@</sup>2023 Apple inc. All right reserved.</p>
 </div>
 
