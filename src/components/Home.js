@@ -1,8 +1,15 @@
 import { Link } from "react-router-dom";
 
-
 function Main() {
-  
+  const slideLeft = () => {
+    let lSlider = document.getElementById("slider");
+    lSlider.scrollLeft = lSlider.scrollLeft - 500;
+  };
+
+  const slideRight = () => {
+    let rSlider = document.getElementById("slider");
+    rSlider.scrollLeft = rSlider.scrollLeft + 500;
+  };
 
   setTimeout(() => {
     document.getElementById("blueE").style =
@@ -28,12 +35,16 @@ function Main() {
         <div className=" sm:mr-60">
           <p className=" text-gray-500 text-2xl font-semibold mx-32 ml-10 sm:text-gray-500 sm:text-5xl sm:font-bold sm:mx-60 sm:ml-20 ">
             {" "}
-            <span className="text-2xl text-black sm:text-5xl font-bold">Store.</span> The
-            best way to buy the products you love.
+            <span className="text-2xl text-black sm:text-5xl font-bold">
+              Store.
+            </span>{" "}
+            The best way to buy the products you love.
           </p>
         </div>
-
-        <div className=" flex  justify-center space-x-6 mt-10 overflow-y-scroll ">
+        <div
+          className=" flex justify-relative space-x-6 mt-10 ml-20 mr-10 overflow-x-scroll no-scrollbar  scroll whitespace-nowrap scroll-smooth "
+          id="slider"
+        >
           <Link to="/Mac">
             {" "}
             <div className=" md:bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
@@ -88,32 +99,90 @@ function Main() {
           <Link to="/Shop">
             <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
               <img
-                src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airpods-nav-202209?wid=200&hei=130&fmt=png-alpha&.v=1660676485885"
+                src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airtags-nav-202108?wid=200&hei=130&fmt=png-alpha&.v=1625783380000"
                 alt=""
               />
-              <p className="text-black font-semibold ml-20 mt-2">AirPods</p>
+              <p className="text-black font-semibold ml-20 mt-2">AirTag</p>
             </div>{" "}
           </Link>
 
-         <Link to="/Shop">
+          <Link to="/Shop">
             <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
               <img
-                src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airpods-nav-202209?wid=200&hei=130&fmt=png-alpha&.v=1660676485885"
+                src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-appletv-nav-202210?wid=200&hei=130&fmt=png-alpha&.v=1664628458484"
                 alt=""
               />
-              <p className="text-black font-semibold ml-20 mt-2">AirPods</p>
+              <p className="text-black font-semibold ml-12 mt-2">Apple TV 4K</p>
             </div>{" "}
           </Link>
 
+          <Link to="/Shop">
+            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+              <img
+                src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-homepod-nav-202301?wid=200&hei=130&fmt=png-alpha&.v=1670389216654"
+                alt=""
+              />
+              <p className="text-black font-semibold ml-12 mt-2">HomePod</p>
+            </div>{" "}
+          </Link>
+
+          <Link to="/Shop">
+            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+              <img
+                src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-accessories-nav-202309?wid=200&hei=130&fmt=png-alpha&.v=1692803114952"
+                alt=""
+              />
+              <p className="text-black font-semibold ml-12 mt-2">Accessories</p>
+            </div>{" "}
+          </Link>
         </div>
 
+        <div className="mt-8 ml-10 mr-5 flex place-content-between">
+        <button onClick={slideLeft} type="button" class="text-white bg-gray-700 hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  viewBox="0 0 24 24"
+  stroke="currentColor"
+  class="w-6 h-6"
+>
+  <path
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="2"
+    d="M15 19l-7-7 7-7"
+  />
+</svg>
+<span class="sr-only">Icon description</span>
+</button>
+       
+
+<button onClick={slideRight} type="button" class="text-white bg-black hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  viewBox="0 0 24 24"
+  stroke="currentColor"
+  class="w-6 h-6"
+>
+  <path
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="2"
+    d="M9 5l7 7-7 7"
+  />
+</svg>
+<span class="sr-only">Icon description</span>
+</button>
+        </div>
         <div className="mt-8 ml-5 mr-3 sm:mt-16 sm:ml-20 ">
           <p className="text-gray-500 text-2xl font-semibold sm:text-4xl sm:font-bold">
-            <span className=" text-black text-2xl font-semibold sm:text-4xl sm:font-bold">The latest.</span>
+            <span className=" text-black text-2xl font-semibold sm:text-4xl sm:font-bold">
+              The latest.
+            </span>
             Take a look at what’s new right now.
           </p>
         </div>
-
         <div className="flex  justify-center space-x-6 mt-12 overfloe-y-scroll">
           <div className="bg-white h-400 w-500 rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <img
@@ -175,16 +244,15 @@ function Main() {
             A collection that makes a world of difference.
           </p>
         </div>
-
-        <div className="flex justify-center space-x-6 mt-12 overflow-y-scroll">
+        <div className="flex justify-center space-x-6 mt-12">
           <div className="bg-white h-400 w-500 rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-300 ease-in-out">
-            <img 
+            <img
               src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-40-merch-card-productred-202311?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1698942978880"
               alt=""
             />
 
             <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-black text-3xl">
-              Choose (<span className="text-red-600" >RED</span>).
+              Choose (<span className="text-red-600">RED</span>).
             </p>
             <p className="absolute top-0 left-0 pt-20 pl-5 font-semibold text-black text-3xl">
               Save lives.
@@ -217,11 +285,11 @@ function Main() {
             <p className="absolute bottom-0 left-0 text-gray-700 pb-5 pl-5 text-l font-semibold">
               no cost EMI or &#8377;69900.00
             </p>
-              <Link to='/Allinone'>
-            <button className="absolute bottom-7 right-6 p-2 bg-blue-600  text-white text-xl   rounded-3xl flex items-center justify-center">
-              Buy
-            </button>
-              </Link>
+            <Link to="/Allinone">
+              <button className="absolute bottom-7 right-6 p-2 bg-blue-600  text-white text-xl   rounded-3xl flex items-center justify-center">
+                Buy
+              </button>
+            </Link>
           </div>
           <div className="bg-white h-400 w-500  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <img
@@ -238,17 +306,13 @@ function Main() {
             <p className="absolute bottom-0 left-0 text-gray-700 pb-10 pl-5 text-l font-semibold">
               From &#8377;41900.00
             </p>
-            <Link to='/Allinone'>
-            <button className="absolute bottom-8 right-6 p-2 bg-blue-600  text-white text-xl   rounded-3xl flex items-center justify-center">
-              Buy
-            </button>
+            <Link to="/Allinone">
+              <button className="absolute bottom-8 right-6 p-2 bg-blue-600  text-white text-xl   rounded-3xl flex items-center justify-center">
+                Buy
+              </button>
             </Link>
           </div>
-
-          
-
         </div>
-
         <div className="mt-10 ml-5 mr-3 sm:mt-20 sm:ml-20">
           <p className="text-2xl font-semibold sm:text-3xl text-gray-500 sm:font-bold">
             <span className="text-2xl font-semibold sm:text-3xl text-black sm:font-bold">
@@ -257,8 +321,7 @@ function Main() {
             Even more reasons to shop with us.
           </p>
         </div>
-
-        <div className="flex justify-center space-x-7 mt-12 ">
+        <div className="flex justify-center space-x-7 mt-12 ~">
           <div className="bg-white  h-70 w-72  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
             <div className="absolute top-6 left-7">
               <svg
@@ -365,24 +428,22 @@ function Main() {
             </p>
           </div>
         </div>
-
         <div className="ml-10  mt-20 sm:ml-20">
           <p className="text-3xl text-black font-bold">Quick Links.</p>
         </div>
-
         <div className="ml-0 mt-5 sm:ml-20 sm:mt-6">
-        <button
-  type="button"
-  class="py-2.5 px-5 me-2 mb-2 text-sm sm:text-base font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
->
-  Order Status
-</button>
+          <button
+            type="button"
+            class="py-2.5 px-5 me-2 mb-2 text-sm sm:text-base font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+          >
+            Order Status
+          </button>
 
           <button
             type="button"
             class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
           >
-            Shopping Helps
+            Shopping Helps  
           </button>
           <button
             type="button"
@@ -391,7 +452,6 @@ function Main() {
             Your Saves
           </button>
         </div>
-
         <div className="ml-5 mr-5 mt-3 sm:ml-32 sm:mr-32 sm:mt-7">
           <p>
             ◊◊ Monthly pricing is after purchase using EMI with qualifying cards
@@ -470,16 +530,13 @@ function Main() {
             address or because you entered it during a previous visit to Apple.
           </p>
         </div>
-
         <div className=" ml-5 mr-5 h-0.5 w-150 bg-gray-600 sm:ml-32 sm:mr-32 mt-4"></div>
-
         <div className="ml-10 mr-10  sm:ml-32 sm:mr-32 mt-1 mb-10">
           <p>
             Copyright <sup>@</sup>2023 Apple inc. All right reserved.
           </p>
         </div>
       </div>
-            
     </>
   );
 }
