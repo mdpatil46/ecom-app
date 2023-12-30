@@ -3,9 +3,9 @@ import React from 'react'
 export default function Shope() {
     return (
         <>
-       <div>
-        
-       </div>
+       <>
+        <h1>Nothing is everything</h1>
+       </>
             
         </>
     )
