@@ -99,6 +99,8 @@ function Ipad() {
               </div>
               <div className="mt-8">
               <p >From &#8377;81900.008</p>
+              <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-5">Buy</button>
+
                </div>
 
             </div>
@@ -107,15 +109,18 @@ function Ipad() {
                 src="https://www.apple.com/v/ipad/home/ch/images/overview/compare_ipad_air__bxjv33pk6nte_large.png"
                 alt="iPadPro"
               />
-               <p className="text-2xl font-bold mt-12">iPad Air</p>
+               <p className="text-2xl font-bold mt-12 mr-8">iPad Air</p>
 
                <div className="text-center mt-6">
                <p>Serious Performance in</p>
                <p>a thin and light design.</p>
+               <p>you do every day.</p>
                </div>
                <div className="mt-8">
                <p className="">From &#8377;59900.00*</p>
                </div>
+               <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-5">Buy</button>
+
 
             </div>
             <div className="text-center ">
@@ -123,7 +128,7 @@ function Ipad() {
                 src="https://www.apple.com/v/ipad/home/ch/images/overview/compare_ipad_10_9__f7p2wja0gwuy_large.png"
                 alt="iPadPro"
               />
-               <p className="text-2xl font-bold mt-12">iPad</p>
+               <p className="text-2xl font-bold mt-12 mr-8">iPad</p>
 
                <div className="text-center mt-6">
                <p>The all‑new colourful</p>
@@ -132,6 +137,8 @@ function Ipad() {
                </div>
                <div className="mt-8">
                <p className="">From &#8377;39900.00*</p>
+               <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-5">Buy</button>
+
                </div>
              
             </div>
@@ -140,14 +147,17 @@ function Ipad() {
                 src="https://www.apple.com/v/ipad/home/ch/images/overview/compare_ipad_10_2__fwgwy7jydtea_large.png"
                 alt="iPadPro"
               />
-               <p className="text-2xl font-bold mt-12">iPad</p>
+               <p className="text-2xl font-bold mt-12 mr-10">iPad</p>
 
                <div className="text-center mt-6">
                <p>All the essentials in the</p>
                <p>most affordable iPad.</p>
+               <p>you do every day.</p>
                </div>
                <div className="mt-8">
                <p className="">From &#8377;32900.00*</p>
+               <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-5">Buy</button>
+
                </div>
                
             </div>
@@ -156,7 +166,7 @@ function Ipad() {
                 src="https://www.apple.com/v/ipad/home/ch/images/overview/compare_ipad_mini__czcsk9ukpeie_large.png"
                 alt="iPadPro"
               />
-               <p className="text-2xl font-bold mt-12">iPad mini</p>
+               <p className="text-2xl font-bold mt-12 mr-10 ">iPad mini</p>
 
                <div className="text-center mt-6">
                <p>The full iPad</p>
@@ -165,6 +175,8 @@ function Ipad() {
                </div>
                <div className="mt-8">
                <p className="">From &#8377;49900.00*</p>
+               <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-5">Buy</button>
+
                </div>
             </div>
           </div>
