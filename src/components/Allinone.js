@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux';
- import { addamount } from '../features/valueAdd/valueSlice';
+ import { addamount, setphoto } from '../features/valueAdd/valueSlice';
 function Allinone() {
   const dispatch = useDispatch()
 
@@ -8,6 +8,9 @@ function Allinone() {
 
     let value = '150000'
     dispatch(addamount(value))
+
+    let iPhoto = 'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg'
+    dispatch(setphoto(iPhoto))
   }
 
   return (

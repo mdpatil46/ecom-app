@@ -16,14 +16,14 @@ export const valueSlice = createSlice({
        },
      
      addamount : (state, action)=>{
-      state.amount = action.payload;
+      state.amount = action.payload
      },
 
-     setphoto : (state, action)=>{
-     state.photo = action.payload;
-     }
-       
+     setphoto:(state,action) =>{
+      console.log(action);
+      state.photo=action.payload
     }
+   },
 });
 
 export const {increment, addamount, setphoto } = valueSlice.actions
