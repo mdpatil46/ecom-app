@@ -223,25 +223,27 @@ function Iphone() {
           <p className="text-3xl ml-5 sm:text-5xl font-semibold sm:ml-20">Ways to Buy iPhone</p>
         </div>
 
-        <div className="flex flex-wrap justify-center space-x-10 mt-12">
-          <div className="h-400 w-500 relative overflow-hidden bg-white rounded-lg">
-            <p className='text-2xl font-bold pl-52 pt-12 '>Mac Accessorise</p>
-            <p className="mt-2 ml-36">Explore keybord, mice and other essentials.</p>
+        <div className="flex flex-absolute justify-center space-x-9 mt-12 text-center">
+          <div className="h-400 w-400 relative overflow-hidden bg-white rounded-lg ml-3">
+            <p className="text-4xl font-bold mt-20 ">Apple Pencil</p>
+            <p className="mt-5 text-xl">Drem it up. Jot it down.</p>
             <img
-              src="https://www.apple.com/in/iphone/home/images/overview/retail/trade_in_3up__de3xzubyk1w2_large.jpg"
-              alt="" className="mt-40"
+              src="https://www.apple.com/v/ipad/home/ch/images/overview/apple_pencil__ekq506kmmys2_large.jpg"
+              alt=""
+              className="mt-40"
             />
           </div>
 
-          <div className="h-400 w-500 relative overflow-hidden bg-white rounded-lg ">
-            <p className='text-2xl font-bold pl-52 pt-12 '>Studio Display</p>
-            <p className="mt-2 ml-20">The 68.29 cm (27″) 5K Retina display pairs beautifully with any Mac.</p>
+          <div className="h-400 w-400 relative overflow-hidden bg-white rounded-lg mr-3">
             <img
-              src="https://www.apple.com/in/iphone/home/images/overview/retail/apple_card__bkmaxfjg05ua_large.jpg"
-              alt="" className="mt-40"
+              src="https://www.apple.com/in/ipad/home/images/overview/smart_keyboard_folio__b8j0ydqvjq2q_large.jpg"
+              alt=""
             />
+            <p className="text-4xl font-bold mt-20  ">Keybords for iPad</p>
+            <p className="mt-5 text-xl">Keybords that have you coverd.</p>
           </div>
         </div>
+
 
 
       </div>
