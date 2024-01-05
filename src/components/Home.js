@@ -21,10 +21,6 @@ function Main() {
     rSlider.scrollLeft = rSlider.scrollLeft + 500;
   };
 
-  setTimeout(() => {
-    document.getElementById("blueE").style =
-      "background:white; color:black;  transition: background-color 1.5s ease;";
-  }, 1000);
 
   return (
     <>

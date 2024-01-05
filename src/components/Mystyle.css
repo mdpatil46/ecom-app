@@ -1,0 +1,20 @@
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes colorChange {
+    0% {
+      background-color: #1d4ed8; /* Starting background color */
+      color: #fff; /* Starting text color */
+    }
+    100% {
+      background-color: #000; /* Ending background color */
+      color: #fff; /* Ending text color */
+    }
+  }
+  

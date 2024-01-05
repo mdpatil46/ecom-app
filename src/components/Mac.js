@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 
 function Mac() {
-  setTimeout(() => {
-    document.getElementById("blue").style =
-      "background:white; color:black;  transition: background-color 1.5s ease;";
-  }, 1000);
+ 
 
   const [div1, setDiv1] = useState(true);
   const [div2, setDiv2] = useState(false);
@@ -333,7 +330,7 @@ function Mac() {
                 height="56"
                 viewBox="0 0 35 35"
                 width="56"
-                class="as-svgicon as-svgicon-personalization as-svgicon-elevated as-svgicon-personalizationelevated"
+                className="as-svgicon as-svgicon-personalization as-svgicon-elevated as-svgicon-personalizationelevated"
                 role="img"
                 aria-hidden="true"
               >
@@ -362,7 +359,7 @@ function Mac() {
                 height="56"
                 viewBox="0 0 49 56"
                 width="49"
-                class="as-svgicon as-svgicon-boxtruck as-svgicon-elevated"
+                className="as-svgicon as-svgicon-boxtruck as-svgicon-elevated"
                 aria-hidden="true"
                 role="img"
               >
