@@ -117,7 +117,6 @@ function Iphone() {
           </div>
         </div>
 
-       
         <div className="bg-white h-full w-auto">
           <div className=" flex justify-center ">
             <p className="text-black text-5xl font-bold mt-20">
@@ -218,37 +217,87 @@ function Iphone() {
           </div>
         </div>
 
-       
         <div className="mt-32 sm:mt-52 text-center">
           <p className="text-3xl ml-5 sm:text-5xl font-semibold sm:ml-20">Ways to Buy iPhone</p>
         </div>
 
-        <div className="flex flex-absolute justify-center space-x-9 mt-12 text-center">
-          <div className="h-400 w-400 relative overflow-hidden bg-white rounded-lg ml-3">
-            <p className="text-4xl font-bold mt-20 ">Apple Pencil</p>
-            <p className="mt-5 text-xl">Drem it up. Jot it down.</p>
+        <div className="flex flex-absolute justify-center space-x-9 mt-12 text-center ml-3 mr-3">
+
+          <div className="h-400 w-400 relative overflow-hidden bg-white rounded-lg ml-3 ">
+            <p className="text-3xl font-bold mt-20 ">Get ₹18700.00-₹64800.00 in</p>
+            <p className="text-3xl font-bold mt-1 ">credit when you</p>
+            <p className="text-3xl font-bold mt-1 ">trade in iPhone 11 or higher.6</p>
+           
             <img
-              src="https://www.apple.com/v/ipad/home/ch/images/overview/apple_pencil__ekq506kmmys2_large.jpg"
+              src="https://www.apple.com/in/iphone/home/images/overview/retail/trade_in_3up__de3xzubyk1w2_large.jpg"
               alt=""
-              className="mt-40"
+              className="mt-28"
+            />
+          </div>
+           
+          <div className="h-400 w-400 relative overflow-hidden bg-white rounded-lg mr-3 text-center">
+            <p className="text-3xl font-bold mt-20  ">Pay with 3- or 6-month</p>
+            <p className="text-3xl font-bold mt-1  ">No Cost EMI.7</p>
+            <p className="mt-3 text-xl">Choose the way that’s right for you.</p>
+            <img
+              src="https://www.apple.com/in/iphone/home/images/overview/retail/apple_card__bkmaxfjg05ua_large.jpg"
+              alt="" className="ml-16 mr-16 mt-32"
             />
           </div>
 
-          <div className="h-400 w-400 relative overflow-hidden bg-white rounded-lg mr-3">
-            <img
-              src="https://www.apple.com/in/ipad/home/images/overview/smart_keyboard_folio__b8j0ydqvjq2q_large.jpg"
-              alt=""
-            />
-            <p className="text-4xl font-bold mt-20  ">Keybords for iPad</p>
-            <p className="mt-5 text-xl">Keybords that have you coverd.</p>
-          </div>
         </div>
 
+        <div className="mt-32 sm:mt-32 mb-10 text-center">
+          <p className="text-3xl ml-5 sm:text-5xl font-semibold sm:ml-20">Featured accessories</p>
+        </div>
 
+        <div className="bg-white flex justify-center items-center space-x-44">
+          <div className="flex flex-col items-center justify-center mt-10">
+            <p className="mt-6 text-black text-5xl font-bold">MagSafe</p>
+            <p className="text-black text-xl  mt-5">
+            Snap on a magnetic case, wallet
+            </p>
+            <p className="text-black text-xl  mt-1">
+            or both. And get fast, efficient
+            </p>
+            <p className="text-black text-xl mt-1">
+            wireless charging.
+            </p>
+          </div>
+           <div className="mt-10">
+            <img
+              src="https://www.apple.com/v/iphone/home/br/images/overview/accessories/magsafe__bfji5hb1mqsy_large.jpg"
+              alt=""
+              className="mt-8"
+              />
+              </div>
+        </div>
+
+        <div className="bg-white flex justify-center items-center space-x-42 mt-3">
+        <div className="mt-10">
+            <img
+              src="https://www.apple.com/v/iphone/home/br/images/overview/accessories/airtag__b5lt0bcbd9ua_large.jpg"
+              alt=""
+              className="mt-8"
+              />
+              </div>
+          <div className="flex flex-col items-center justify-center mt-10">
+            <p className="mt-6 text-black text-5xl font-bold">AirTag</p>
+            <p className="text-black text-xl  mt-5">
+            Attach one to your keys. Put another in your
+            </p>
+            <p className="text-black text-xl  mt-1">
+            backpack. If they’re misplaced, simply use
+            </p>
+            <p className="text-black text-xl mt-1">
+            the Find My app.
+            </p>
+          </div>
+           
+        </div>
 
       </div>
     </>
   );
 }
-
 export default Iphone;
