@@ -93,12 +93,12 @@ function Navbar() {
                     AirPods
                   </Link>
                 </li>
-                <li className="mb-2">
+                {/* <li className="mb-2">
                   {" "}
                   <Link to="/Categories" className="text-xl">
                     Categories
                   </Link>
-                </li>
+                </li> */}
                 <li className="mb-2">
                   <Link to="/Contact" className="text-xl">
                     Contact
@@ -134,9 +134,9 @@ function Navbar() {
           <Link to="/Shope" className=" ">
             AirPods
           </Link>
-          <Link to="/Categories" className="">
+          {/* <Link to="/Categories" className="">
             Categories
-          </Link>
+          </Link> */}
           <Link to="/Contact" className=" ">
             Contact
           </Link>

@@ -38,6 +38,7 @@ function Main() {
       </div>
 
       <div className=" mx-auto flex-wrap justify-center  bg-gray-200 mt-0">
+
         <div className=" sm:mr-60">
           <p className=" text-gray-500 text-2xl font-semibold mx-32 ml-10 sm:text-gray-500 sm:text-5xl sm:font-bold sm:mx-60 sm:ml-20 ">
             {" "}
@@ -47,6 +48,7 @@ function Main() {
             The best way to buy the products you love.
           </p>
         </div>
+        
         <div
           className=" flex justify-relative space-x-6 mt-10 ml-5 sm:ml-20 mr-5 sm:mr-10 overflow-x-scroll no-scrollbar  scroll whitespace-nowrap scroll-smooth "
           id="slider"
