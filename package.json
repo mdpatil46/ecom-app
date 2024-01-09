@@ -2,7 +2,7 @@
   "name": "ecom-app",
   "homepage": "https://mdpatil46.github.io/ecom-app",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/jest-dom": "^5.17.0",
