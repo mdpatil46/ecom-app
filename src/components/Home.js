@@ -55,7 +55,7 @@ function Main() {
         >
           <Link to="/Mac">
             {" "}
-            <div className=" md:bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+            <div className=" md:bg-gray-200  h-40 w-52  rounded-2xl relative  transform hover:scale-105 transition-transform duration-500 ease-in-out">
               <img
                 src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-mac-nav-202310?wid=200&hei=130&fmt=png-alpha&.v=1696964122666"
                 alt=""
@@ -65,7 +65,7 @@ function Main() {
           </Link>
 
           <Link to="/Iphone">
-            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative  transform hover:scale-105 transition-transform duration-500 ease-in-out">
               <img
                 src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-iphone-nav-202309_GEO_EMEA?wid=200&hei=130&fmt=png-alpha&.v=1692971740071"
                 alt=""
@@ -75,7 +75,7 @@ function Main() {
           </Link>
 
           <Link to="/Ipad">
-            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative  transform hover:scale-105 transition-transform duration-500 ease-in-out">
               <img
                 src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-ipad-nav-202210?wid=200&hei=130&fmt=png-alpha&.v=1664912135437"
                 alt=""
@@ -85,7 +85,7 @@ function Main() {
           </Link>
 
           <Link to="/Watch">
-            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative  transform hover:scale-105 transition-transform duration-500 ease-in-out">
               <img
                 src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-watch-nav-202309_GEO_IN?wid=200&hei=130&fmt=png-alpha&.v=1693703814407"
                 alt=""
@@ -95,7 +95,7 @@ function Main() {
           </Link>
 
           <Link to="/Shope">
-            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative  transform hover:scale-105 transition-transform duration-500 ease-in-out">
               <img
                 src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airpods-nav-202209?wid=200&hei=130&fmt=png-alpha&.v=1660676485885"
                 alt=""
@@ -105,7 +105,7 @@ function Main() {
           </Link>
 
           <Link to="/Shope">
-            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative  transform hover:scale-105 transition-transform duration-500 ease-in-out">
               <img
                 src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airtags-nav-202108?wid=200&hei=130&fmt=png-alpha&.v=1625783380000"
                 alt=""
@@ -115,7 +115,7 @@ function Main() {
           </Link>
 
           <Link to="/Shope">
-            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative  transform hover:scale-105 transition-transform duration-500 ease-in-out">
               <img
                 src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-appletv-nav-202210?wid=200&hei=130&fmt=png-alpha&.v=1664628458484"
                 alt=""
@@ -125,7 +125,7 @@ function Main() {
           </Link>
 
           <Link to="/Shope">
-            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative  transform hover:scale-105 transition-transform duration-500 ease-in-out">
               <img
                 src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-homepod-nav-202301?wid=200&hei=130&fmt=png-alpha&.v=1670389216654"
                 alt=""
@@ -135,7 +135,7 @@ function Main() {
           </Link>
 
           <Link to="/Shope">
-            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+            <div className="bg-gray-200  h-40 w-52  rounded-2xl relative  transform hover:scale-105 transition-transform duration-500 ease-in-out">
               <img
                 src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-accessories-nav-202309?wid=200&hei=130&fmt=png-alpha&.v=1692803114952"
                 alt=""
@@ -200,7 +200,7 @@ function Main() {
           </p>
         </div>
         <div className="flex  justify-center space-x-6 mt-12 overfloe-y-scroll">
-          <div className="bg-white h-400 w-500 rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="bg-white h-400 w-500 rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <img
               src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692719973220"
               alt=""
@@ -216,7 +216,7 @@ function Main() {
               From &#8377;79900.00
             </p>
           </div>
-          <div className="bg-black h-400 w-500 rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="bg-black h-400 w-500 rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <img
               src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692910040844"
               alt=""
@@ -232,7 +232,7 @@ function Main() {
               From &#8377;134900.00
             </p>
           </div>
-          <div className="bg-white h-400 w-500  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="bg-white h-400 w-500  rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <img
               src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-pro-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1696964122967"
               alt=""
@@ -261,7 +261,7 @@ function Main() {
           </p>
         </div>
         <div className="flex justify-center space-x-6 mt-12">
-          <div className="bg-white h-400 w-500 rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="bg-white h-400 w-500 rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <img
               src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-40-merch-card-productred-202311?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1698942978880"
               alt=""
@@ -280,7 +280,7 @@ function Main() {
               help fund the fight against AIDS.
             </p>
           </div>
-          <div className="bg-white h-400 w-500 rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-300 ease-in-out flex items-center justify-center">
+          <div className="bg-white h-400 w-500 rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out flex items-center justify-center">
             <img
               src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-40-productred-iphone14-202311?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1698446319581"
               alt=""
@@ -307,7 +307,7 @@ function Main() {
               </button>
             </Link>
           </div>
-          <div className="bg-white h-400 w-500  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="bg-white h-400 w-500  rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <img
               src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-40-productred-watch-202311?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1698446319887"
               alt=""

@@ -17,7 +17,7 @@ export default function Addcart() {
   const addimg = useSelector((state) => state.counter.photo);
   return (
     <>
-      {/*
+      
       <div
         className=" h-auto w-auto ml-10 mr-10  mt-10 bg-gray-300 rounded-xl  "> 
         <p className="text-black text-2xl font-bold">
@@ -47,14 +47,14 @@ export default function Addcart() {
       </div>
 
       <h1>my idea! = {inputValue}</h1>
-  */}
+ 
 
       <div className="flex  items-center justify-center mt-32">
         <div className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-gray-100 bg-clip-border text-gray-700 shadow-md">
           <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700 p-3 ">
             <img
               src={addimg}
-              alt="image"
+              alt=""
               className="h-full w-full object-cover p-3"
             />
           </div>
@@ -90,7 +90,7 @@ export default function Addcart() {
                 Sign in with Apple
               </button>
             </Link>
-            <Link to="/Sighin">
+            <Link to="/Signin">
 
               <button
                 type="button"

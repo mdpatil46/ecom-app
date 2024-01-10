@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 
 import { Link } from "react-router-dom";
 
@@ -8,6 +8,25 @@ function Navbar() {
   function sidebar (){
     setmenuopen(!ismenuopen)
   }
+
+  useEffect(() => {
+    const handleBodyScroll = () => {
+      // Disable background scrolling when the dropdown is open
+      if (ismenuopen) {
+        document.body.style.overflow = "hidden";
+      } else {
+        document.body.style.overflow = "visible";
+      }
+    };
+
+    // Attach the event listener
+    window.addEventListener("scroll", handleBodyScroll);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleBodyScroll);
+    };
+  }, [ismenuopen]);
 
   function changeNav(isLogoClick) { 
     let mystyle = document.getElementById("changeNavbar");
@@ -19,7 +38,7 @@ function Navbar() {
   return (
     <>
       <nav
-        className="bg-gray-200 text-black opacity-80 p-2 flex flex-wrap justify-between items-center sm:px-6 lg:px-8* border-b-2 border-gray-400"
+        className="bg-gray-200 text-black  p-2 flex flex-wrap justify-between items-center sm:px-6 lg:px-8* border-b-2 border-gray-400"
         id="changeNavbar"
       >
         <Link
@@ -58,11 +77,11 @@ function Navbar() {
               d="M4 6h16M4 12h16m-7 6h7"
             ></path>
           </svg>
-          {ismenuopen &&(<div className="sm:hidden bg-black text-white font-bold h-screen w-96 fixed center-0 right-0 "  >
+          {ismenuopen &&(<div className="flex justify-center items-center bg-white text-black text-4xl font-extrabold h-full w-full fixed top-0 right-0 overflow-y-hidden"  >
             <div className="p-4">
               
               <ul>
-                <li className="mb-2">
+                <li className="mb-2 mt-5">
                   <Link to="/Home" className="text-xl">
                     Store
                   </Link>
