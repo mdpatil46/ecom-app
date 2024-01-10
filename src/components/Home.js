@@ -50,7 +50,7 @@ function Main() {
         </div>
         
         <div
-          className=" flex justify-relative space-x-6 mt-10 ml-5 sm:ml-20 mr-5 sm:mr-10 overflow-x-scroll no-scrollbar  scroll whitespace-nowrap scroll-smooth "
+          className=" flex justify-relative space-x-6 mt-10 ml-5 sm:ml-20 mr-5 sm:mr-10 overflow-x-scroll overflow-y-hidden no-scrollbar  scroll whitespace-nowrap scroll-smooth "
           id="slider"
         >
           <Link to="/Mac">
@@ -145,11 +145,11 @@ function Main() {
           </Link>
         </div>
 
-        <div className="mt-8 ml-10 mr-5 flex place-content-between">
+        <div className="mt-8 space-x-5  flex justify-center items-center">
           <button
             onClick={slideLeft}
             type="button"
-            className="text-white bg-gray-700 hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            className="text-white bg-gray-700 hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center  items-center me-2 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 hidden sm:inline-block "
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -171,7 +171,7 @@ function Main() {
           <button
             onClick={slideRight}
             type="button"
-            className="text-white bg-black hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            className="text-white bg-black hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center        items-center me-2 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 hidden sm:inline-block "
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -199,8 +199,10 @@ function Main() {
             Take a look at what’s new right now.
           </p>
         </div>
-        <div className="flex  justify-center space-x-6 mt-12 overfloe-y-scroll">
-          <div className="bg-white h-400 w-500 rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
+
+        < div className="flex  justify-center space-x-6 mt-12 overflow-y-hidden overflow-x-scroll no-scrollbar scroll whitespace-nowrap scroll-smooth">
+        
+        <div className="bg-white h-auto w-auto rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <img
               src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692719973220"
               alt=""
@@ -215,8 +217,13 @@ function Main() {
             <p className="absolute top-0 left-0 pt-24 pl-5  text-black text-xl">
               From &#8377;79900.00
             </p>
-          </div>
-          <div className="bg-black h-400 w-500 rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
+          </div> 
+          
+        
+      
+
+        
+        <div className="bg-black h-1 sm:h-auto w-auto sm:w-auto rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <img
               src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692910040844"
               alt=""
@@ -229,10 +236,18 @@ function Main() {
               Titanium
             </p>
             <p className="absolute top-0 left-0 pt-24 pl-5  text-white text-xl">
-              From &#8377;134900.00
+              From &#8377;134900.00 
             </p>
           </div>
-          <div className="bg-white h-400 w-500  rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
+          
+
+
+
+      
+   
+       
+
+          <div className="bg-whiteh-72 sm:h-auto w-auto sm:w-auto rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <img
               src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-pro-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1696964122967"
               alt=""
@@ -251,7 +266,13 @@ function Main() {
               From &#8377;169900.00
             </p>
           </div>
+         
         </div>
+
+
+
+
+        
         <div className="mt-10 ml-5 sm:mt-20 sm:ml-20">
           <p className="text-2xl font-semibold sm:text-3xl text-gray-500 sm:font-bold">
             <span className="text-2xl font:semibold sm:text-3xl text-red-600 sm:font-bold">
@@ -260,8 +281,10 @@ function Main() {
             A collection that makes a world of difference.
           </p>
         </div>
-        <div className="flex justify-center space-x-6 mt-12">
-          <div className="bg-white h-400 w-500 rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
+
+        <div className="flex justify-center space-x-6 mt-12 ml-10 overflow-x-scroll overflow-y-hidden no-scrollbar  scroll whitespace-nowrap scroll-smooth">
+
+          <div className="bg-white h-400 w-500 rounded-2xl relative  transform hover:scale-105 transition-transform duration-301 ease-in-out flex items-center justify-center">
             <img
               src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-40-merch-card-productred-202311?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1698942978880"
               alt=""
@@ -280,7 +303,8 @@ function Main() {
               help fund the fight against AIDS.
             </p>
           </div>
-          <div className="bg-white h-400 w-500 rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out flex items-center justify-center">
+
+          <div className="bg-white h-400 w-500 rounded-2xl relative  transform hover:scale-105 transition-transform duration-302 ease-in-out flex items-center justify-center">
             <img
               src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-40-productred-iphone14-202311?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1698446319581"
               alt=""
@@ -307,7 +331,8 @@ function Main() {
               </button>
             </Link>
           </div>
-          <div className="bg-white h-400 w-500  rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
+
+          <div className="bg-white h-400 w-500  rounded-2xl relative  transform hover:scale-105 transition-transform duration-303 ease-in-out ">
             <img
               src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-40-productred-watch-202311?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1698446319887"
               alt=""
@@ -329,6 +354,7 @@ function Main() {
             </Link>
           </div>
         </div>
+
         <div className="mt-10 ml-5 mr-3 sm:mt-20 sm:ml-20">
           <p className="text-2xl font-semibold sm:text-3xl text-gray-500 sm:font-bold">
             <span className="text-2xl font-semibold sm:text-3xl text-black sm:font-bold">
@@ -337,8 +363,9 @@ function Main() {
             Even more reasons to shop with us.
           </p>
         </div>
+
         <div
-          className="flex justify-relative space-x-6 mt-10 ml-5 sm:ml-20 mr-5 sm:mr-10 overflow-x-scroll no-scrollbar  scroll whitespace-nowrap scroll-smooth "
+          className="flex justify-relative space-x-6 mt-10 ml-5 sm:ml-20 mr-5 sm:mr-10 overflow-x-scroll overflow-y-hidden no-scrollbar  scroll whitespace-nowrap scroll-smooth  "
           id="my"
         >
           <div className="bg-white  h-64 w-72  rounded-2xl   transform hover:scale-105 transition-transform duration-500 ease-in-out">
@@ -506,11 +533,11 @@ function Main() {
           </div>
         </div>
 
-        <div className="mt-8 ml-10 mr-5 flex place-content-between">
+        <div className="mt-8 flex justify-center items-center space-x-5">
           <button
             onClick={gslideLeft}
             type="button"
-            className="text-white bg-gray-700 hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            className="text-white bg-gray-700 hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center items-center me-2 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 hidden sm:inline-block "
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -532,7 +559,7 @@ function Main() {
           <button
             onClick={gslideRight}
             type="button"
-            className="text-white bg-black hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            className="text-white bg-black hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center  items-center me-2 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 hidden sm:inline-block "
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

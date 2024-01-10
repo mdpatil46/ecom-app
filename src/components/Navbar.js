@@ -31,9 +31,11 @@ function Navbar() {
   function changeNav(isLogoClick) { 
     let mystyle = document.getElementById("changeNavbar");
     let appleLogo = document.getElementById('myapplelogo')
+    let cartLogo = document.getElementById('mycartlogo')
     mystyle.style.color = (isLogoClick) ? "orange" : "black";
     mystyle.style.backgroundColor = (isLogoClick) ? "black" : "gray";
     appleLogo.style.stroke = isLogoClick ?'#ffffff' : '#000000';
+    cartLogo.style.stroke = isLogoClick ?'#ffffff' : '#000000';
   }
   return (
     <>
@@ -165,6 +167,7 @@ function Navbar() {
         </div>
         <Link to="/Addcart" className="md:flex hidden hover:text-2xl font-bold">
           <svg
+          id="mycartlogo"
             height="48"
             viewBox="0 0 17 48"
             width="17"
