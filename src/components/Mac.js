@@ -49,9 +49,107 @@ function Mac() {
           <p className="text-3xl ml-5 mt-10 sm:text-7xl font-semibold sm:ml-20 sm:mt-20">Get to know Mac.</p>
         </div>
 
+
+        < div className="flex  justify-center  space-x-6 mt-12 overflow-y-scroll  whitespace-nowrap ">
+        
+        <div className="bg-white rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
+            <img
+              src="https://www.apple.com/v/mac/home/bx/images/overview/consider/mac_ease__bvgkz2zdltxy_large.jpg"
+              alt=""
+              className="rounded-t-2xl"
+            />
+            <p className="absolute top-0 left-0 text-gray-500 pt-5 pl-5 text-sm font-semibold">
+              IPHONE 15
+            </p>
+            <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-black text-3xl">
+              Newphoria
+            </p>
+            <p className="absolute top-0 left-0 pt-24 pl-5  text-black text-xl">
+              From &#8377;79900.00
+            </p>
+          </div> 
+
+        <div className="bg-black   rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
+            <img
+              src="https://www.apple.com/v/mac/home/bx/images/overview/consider/mac_performance__dh5hyac1zf8m_large.jpg"
+              alt=""
+              className="  rounded-t-2xl"
+            />
+            <p className="absolute top-0 left-0 text-white pt-5 pl-5 text-sm font-semibold">
+              IPHONE 15 PRO
+            </p>
+            <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-white text-3xl">
+              Titanium
+            </p>
+            <p className="absolute top-0 left-0 pt-24 pl-5  text-white text-xl">
+              From &#8377;134900.00 
+            </p>
+          </div>
+        
+          <div className="bg-white  rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
+            <img
+              src="https://www.apple.com/in/mac/home/images/overview/consider/mac_iphone__gh1tblkt6bqm_large.jpg"
+              alt=""
+              className=" rounded-t-2xl"
+            />
+            <p className="absolute top-0 left-0 text-gray-500 pt-5 pl-5 text-sm font-semibold">
+              MACBOOK PRO 14" AND 16"
+            </p>
+            <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-black text-3xl">
+              Mind-blowing.
+            </p>
+            <p className="absolute top-0 left-0 pt-20 pl-5 font-semibold text-black text-3xl">
+              Head-turning.
+            </p>
+            <p className="absolute top-0 left-0 pt-32 pl-5  text-black text-xl">
+              From &#8377;169900.00
+            </p>
+          </div>
+
+          {/* <div className="bg-white  rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
+            <img
+              src="https://www.apple.com/in/mac/home/images/overview/consider/mac_compatibility__cu59oukz81ci_large.jpg"
+              alt=""
+              className=" rounded-t-2xl"
+            />
+            <p className="absolute top-0 left-0 text-gray-500 pt-5 pl-5 text-sm font-semibold">
+              MACBOOK PRO 14" AND 16"
+            </p>
+            <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-black text-3xl">
+              Mind-blowing.
+            </p>
+            <p className="absolute top-0 left-0 pt-20 pl-5 font-semibold text-black text-3xl">
+              Head-turning.
+            </p>
+            <p className="absolute top-0 left-0 pt-32 pl-5  text-black text-xl">
+              From &#8377;169900.00
+            </p>
+          </div>
+
+          <div className="bg-white  rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
+            <img
+              src="https://www.apple.com/in/mac/home/images/overview/consider/mac_compatibility__cu59oukz81ci_large.jpg"
+              alt=""
+              className="  rounded-t-2xl"
+            />
+            <p className="absolute top-0 left-0 text-gray-500 pt-5 pl-5 text-sm font-semibold">
+              MACBOOK PRO 14" AND 16"
+            </p>
+            <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-black text-3xl">
+              Mind-blowing.
+            </p>
+            <p className="absolute top-0 left-0 pt-20 pl-5 font-semibold text-black text-3xl">
+              Head-turning.
+            </p>
+            <p className="absolute top-0 left-0 pt-32 pl-5  text-black text-xl">
+              From &#8377;169900.00
+            </p>
+          </div> */}
+         
+        </div>
          
 
-
+              
 
 
         <div>

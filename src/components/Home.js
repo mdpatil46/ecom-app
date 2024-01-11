@@ -218,11 +218,7 @@ function Main() {
               From &#8377;79900.00
             </p>
           </div> 
-          
-        
-      
 
-        
         <div className="bg-black h-1 sm:h-auto w-auto sm:w-auto rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <img
               src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692910040844"
@@ -239,14 +235,7 @@ function Main() {
               From &#8377;134900.00 
             </p>
           </div>
-          
-
-
-
-      
-   
-       
-
+        
           <div className="bg-whiteh-72 sm:h-auto w-auto sm:w-auto rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <img
               src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-pro-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1696964122967"
