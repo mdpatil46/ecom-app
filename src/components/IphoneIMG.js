@@ -11,7 +11,7 @@ export default function IphoneIMG() {
             className="max-auto"
           />
           <div class="absolute inset-0 flex items-center justify-center">
-            <p class="text-white text-4xl font-bold mb-96">iPhone15Pro</p>
+            <p class="text-white text-3xl sm:text-5xl font-bold mb-72 sm:mb-96">iPhone15Pro</p>
           </div>
           
         </div>

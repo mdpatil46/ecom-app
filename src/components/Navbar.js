@@ -40,7 +40,7 @@ function Navbar() {
   return (
     <>
       <nav
-        className="bg-gray-200 text-black  p-2 flex flex-wrap justify-between items-center sm:px-6 lg:px-8* border-b-2 border-gray-400"
+        className="bg-gray-200 text-black  p-2 flex flex-wrap justify-between items-center overflow-hidden sm:px-6 lg:px-8* border-b-2 border-gray-400"
         id="changeNavbar"
       >
         <Link
@@ -79,7 +79,7 @@ function Navbar() {
               d="M4 6h16M4 12h16m-7 6h7"
             ></path>
           </svg>
-          {ismenuopen &&(<div className="flex justify-center items-center bg-white text-black text-4xl font-extrabold h-full w-full fixed top-0 right-0 overflow-y-hidden"  >
+          {ismenuopen &&(<div className="flex justify-center items-center bg-white text-black text-4xl font-extrabold h-full w-full fixed top-0 right-0 overflow-hidden"  style={{ zIndex: 9999 }}  >
             <div className="p-4">
               
               <ul>

@@ -603,6 +603,7 @@ function Main() {
             Your Saves
           </button>
         </div>
+
         <div className="ml-5 mr-5 mt-3 sm:ml-32 sm:mr-32 sm:mt-7">
           <p>
             ◊◊ Monthly pricing is after purchase using EMI with qualifying cards
@@ -681,7 +682,9 @@ function Main() {
             address or because you entered it during a previous visit to Apple.
           </p>
         </div>
+        
         <div className=" ml-5 mr-5 h-0.5 w-150 bg-gray-600 sm:ml-32 sm:mr-32 mt-4"></div>
+
         <div className="ml-10 mr-10  sm:ml-32 sm:mr-32 mt-1 mb-10">
           <p>
             Copyright <sup>@</sup>2023 Apple inc. All right reserved.

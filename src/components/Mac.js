@@ -49,47 +49,55 @@ function Mac() {
           <p className="text-3xl ml-5 mt-10 sm:text-7xl font-semibold sm:ml-20 sm:mt-20">Get to know Mac.</p>
         </div>
 
-        <div className="flex flex-wrap justify-center space-x-6 mt-12">
-          <div className="bg-white h-400 w-500 rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-300 ease-in-out">
-            <img
-              src="https://www.apple.com/v/mac/home/bx/images/overview/consider/mac_ease__bvgkz2zdltxy_large.jpg"
-              alt=""
-              className="w-full h-auto rounded-t-2xl"
-            />
-            <p className="absolute top-0 left-0 text-white pt-9 pl-5 text-l font-semibold">
-              Getting Started
-            </p>
-            <p className="absolute top-0 left-0 pt-16 pl-5 font-semibold text-white text-3xl">
-              Easy to use. Easy to love.
-            </p>
+          <div className="flex flex-relative justify-center space-x-6 mt-12 overflow-x-scroll overflow-y-hidden   scroll whitespace-nowrap scroll-smooth">
+            <div className="flex flex-wrap  bg-white h-96  sm:h-400 w-96 sm:w-400 rounded-2xl  transform hover:scale-105 transition-transform duration-300 ease-in-out">
+              <img
+                src="https://www.apple.com/v/mac/home/bx/images/overview/consider/mac_ease__bvgkz2zdltxy_large.jpg"
+                alt=""
+                className="w-full h-auto rounded-t-2xl"
+              />
+              <p className="absolute top-0 left-0 text-white pt-9 pl-5 text-l font-semibold">
+                Getting Started
+              </p>
+              <p className="absolute top-0 left-0 pt-16 pl-5 font-semibold text-white text-3xl">
+                Easy to use. Easy to love.
+              </p>
+            </div>
+            
+
+            
+            <div className="flex flex-wrap bg-black h-400 sm:h-400 w-500 rounded-2xl   transform hover:scale-105 transition-transform duration-300 ease-in-out">
+              <img
+                src="https://www.apple.com/v/mac/home/bx/images/overview/consider/mac_performance__dh5hyac1zf8m_large.jpg"
+                alt=""
+                className="w-auto h-auto rounded-t-2xl"
+              />
+              <p className="absolute top-0 left-0 text-white pt-9 pl-5 text-l font-semibold">
+                Performance and Battery life
+              </p>
+              <p className="absolute top-0 left-0 pt-16 pl-5 font-semibold text-white text-3xl">
+                Go fast. Go far.
+              </p>
+            </div>
+            <div className="flex flex-wrap bg-white  h-400 sm:h-400 w-500  rounded-2xl   transform hover:scale-105 transition-transform duration-300 ease-in-out">
+              <img
+                src="https://www.apple.com/in/mac/home/images/overview/consider/mac_iphone__gh1tblkt6bqm_large.jpg"
+                alt=""
+                className="w-auto h-auto rounded-t-2xl"
+              />
+              <p className="absolute top-0 left-0 text-black pt-9 pl-5 text-l font-semibold">
+                Mac and iPhone
+              </p>
+              <p className="absolute top-0 left-0 pt-16 pl-5 font-semibold text-black text-3xl">
+                Dream team.
+              </p>
+            </div>
+          
+           
           </div>
-          <div className="bg-black h-400 w-500 rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-300 ease-in-out">
-            <img
-              src="https://www.apple.com/v/mac/home/bx/images/overview/consider/mac_performance__dh5hyac1zf8m_large.jpg"
-              alt=""
-              className="w-full h-auto rounded-t-2xl"
-            />
-            <p className="absolute top-0 left-0 text-white pt-9 pl-5 text-l font-semibold">
-              Performance and Battery life
-            </p>
-            <p className="absolute top-0 left-0 pt-16 pl-5 font-semibold text-white text-3xl">
-              Go fast. Go far.
-            </p>
-          </div>
-          <div className="bg-white h-400 w-500  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-300 ease-in-out">
-            <img
-              src="https://www.apple.com/in/mac/home/images/overview/consider/mac_iphone__gh1tblkt6bqm_large.jpg"
-              alt=""
-              className="w-full h-auto rounded-t-2xl"
-            />
-            <p className="absolute top-0 left-0 text-black pt-9 pl-5 text-l font-semibold">
-              Mac and iPhone
-            </p>
-            <p className="absolute top-0 left-0 pt-16 pl-5 font-semibold text-black text-3xl">
-              Dream team.
-            </p>
-          </div>
-        </div>
+
+
+
 
         <div>
           <p className="text-3xl font-semibold ml-5 mt-12  sm:text-7xl sm:font-bold sm:ml-20 sm:mt-44">Explore the line-up</p>
@@ -266,8 +274,9 @@ function Mac() {
           <p className="text-3xl ml-5 sm:text-5xl font-semibold sm:ml-20">place to buy Mac.</p>
         </div>
 
-        <div className="flex justify-center space-x-7 mt-12">
-          <div className="bg-white  h-70 w-72  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+        <div className="flex justify-relative space-x-6 mt-10 ml-5 sm:ml-20 mr-5 sm:mr-10 overflow-x-scroll overflow-y-hidden no-scrollbar  scroll whitespace-nowrap scroll-smooth ">
+
+          <div className="bg-white  h-70 w-72  rounded-2xl relative  transform hover:scale-105 transition-transform duration-500 ease-in-out">
             <div className="absolute top-6 left-7">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -295,7 +304,7 @@ function Mac() {
             <p className=" text-black font-semibold ml-7">options.</p>
           </div>
 
-          <div className="bg-white h-64 w-72  rounded-2xl  relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out ">
+          <div className="bg-white h-64 w-72  rounded-2xl  relative  transform hover:scale-105 transition-transform duration-500 ease-in-out ">
             <div className="">
               <svg
                 height="100"
@@ -324,7 +333,7 @@ function Mac() {
             </p>
           </div>
 
-          <div className="bg-white h-64 w-72 rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+          <div className="bg-white h-64 w-72 rounded-2xl relative  transform hover:scale-105 transition-transform duration-500 ease-in-out">
             <div className="absolute top-6 left-7">
               <svg
                 height="56"
@@ -353,7 +362,7 @@ function Mac() {
             <p className=" text-black font-semibold ml-7">your new Mac.</p>
           </div>
 
-          <div className="bg-white  h-64 w-72 rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+          <div className="bg-white  h-64 w-72 rounded-2xl relative  transform hover:scale-105 transition-transform duration-500 ease-in-out">
             <div className="absolute top-6 left-7">
               <svg
                 height="56"
