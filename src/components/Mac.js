@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 
 function Mac() {
- 
-
   const [div1, setDiv1] = useState(true);
   const [div2, setDiv2] = useState(false);
   const [div3, setDiv3] = useState(false);
@@ -32,7 +30,9 @@ function Mac() {
             <p className=" text-5xl ml-5 sm:text-7xl font-bold sm:ml-20">Mac</p>
           </div>
           <div className="mr-3 mt-5  sm:mr-36 sm:mt-5" id="mydiv">
-            <p className="text-xl sm:text-3xl font-semibold ">If you can dream it,</p>
+            <p className="text-xl sm:text-3xl font-semibold ">
+              If you can dream it,
+            </p>
             <p className="text-xl sm:text-3xl font-semibold ">Mac can do it.</p>
           </div>
         </header>
@@ -46,30 +46,48 @@ function Mac() {
         </div>
 
         <div>
-          <p className="text-3xl ml-5 mt-10 sm:text-7xl font-semibold sm:ml-20 sm:mt-20">Get to know Mac.</p>
+          <p className="text-3xl ml-5 mt-10 sm:text-7xl font-semibold sm:ml-20 sm:mt-20">
+            Get to know Mac.
+          </p>
         </div>
 
-
-        < div className="flex  justify-center  space-x-6 mt-12 overflow-y-scroll  whitespace-nowrap ">
-        
-        <div className="bg-white rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
+        <div className="flex  justify-center  space-x-6 mt-12  overflow-y-scroll no-scrollbar  whitespace-nowrap ">
+          
+          <figure className="relative max-w-sm transition-all duration-300 ">
             <img
+              className="rounded-lg"
               src="https://www.apple.com/v/mac/home/bx/images/overview/consider/mac_ease__bvgkz2zdltxy_large.jpg"
-              alt=""
-              className="rounded-t-2xl"
+              alt=" description"
             />
-            <p className="absolute top-0 left-0 text-gray-500 pt-5 pl-5 text-sm font-semibold">
-              IPHONE 15
-            </p>
-            <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-black text-3xl">
-              Newphoria
-            </p>
-            <p className="absolute top-0 left-0 pt-24 pl-5  text-black text-xl">
-              From &#8377;79900.00
-            </p>
-          </div> 
+          </figure>
 
-        <div className="bg-black   rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
+          <figure className="relative max-w-sm transition-all duration-300 ">
+            <img
+              className="rounded-lg"
+              src="https://www.apple.com/v/mac/home/bx/images/overview/consider/mac_performance__dh5hyac1zf8m_large.jpg"
+              alt=" description"
+            />
+          </figure>
+
+          <figure className="relative max-w-sm transition-all duration-300 ">
+            <img
+              className="rounded-lg"
+              src="https://www.apple.com/in/mac/home/images/overview/consider/mac_iphone__gh1tblkt6bqm_large.jpg"
+              alt=" description"
+            />
+          </figure>
+
+          {/* <figure className="relative max-w-sm transition-all duration-300 ">
+            <img
+              className="rounded-lg"
+              src="https://www.apple.com/in/mac/home/images/overview/consider/mac_compatibility__cu59oukz81ci_large.jpg"
+              alt=" description"
+            />
+
+           
+          </figure> */}
+
+          {/* <div className="bg-black   rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <img
               src="https://www.apple.com/v/mac/home/bx/images/overview/consider/mac_performance__dh5hyac1zf8m_large.jpg"
               alt=""
@@ -84,9 +102,9 @@ function Mac() {
             <p className="absolute top-0 left-0 pt-24 pl-5  text-white text-xl">
               From &#8377;134900.00 
             </p>
-          </div>
-        
-          <div className="bg-white  rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
+          </div> */}
+
+          {/* <div className="bg-white  rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <img
               src="https://www.apple.com/in/mac/home/images/overview/consider/mac_iphone__gh1tblkt6bqm_large.jpg"
               alt=""
@@ -104,7 +122,7 @@ function Mac() {
             <p className="absolute top-0 left-0 pt-32 pl-5  text-black text-xl">
               From &#8377;169900.00
             </p>
-          </div>
+          </div> */}
 
           {/* <div className="bg-white  rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <img
@@ -145,15 +163,12 @@ function Mac() {
               From &#8377;169900.00
             </p>
           </div> */}
-         
         </div>
-         
-
-              
-
 
         <div>
-          <p className="text-3xl font-semibold ml-5 mt-12  sm:text-7xl sm:font-bold sm:ml-20 sm:mt-44">Explore the line-up</p>
+          <p className="text-3xl font-semibold ml-5 mt-12  sm:text-7xl sm:font-bold sm:ml-20 sm:mt-44">
+            Explore the line-up
+          </p>
         </div>
         <div className="ml-7 mt-10 sm:ml-20 sm:mt-20">
           <button
@@ -322,13 +337,14 @@ function Mac() {
 
         <div className="mt-3 sm:mt-5">
           <p className="text-3xl ml-5 sm:text-5xl font-semibold sm:ml-20">
-            Why Apple is bast  {" "}
+            Why Apple is bast{" "}
           </p>
-          <p className="text-3xl ml-5 sm:text-5xl font-semibold sm:ml-20">place to buy Mac.</p>
+          <p className="text-3xl ml-5 sm:text-5xl font-semibold sm:ml-20">
+            place to buy Mac.
+          </p>
         </div>
 
         <div className="flex justify-relative space-x-6 mt-10 ml-5 sm:ml-20 mr-5 sm:mr-10 overflow-x-scroll overflow-y-hidden no-scrollbar  scroll whitespace-nowrap scroll-smooth ">
-
           <div className="bg-white  h-70 w-72  rounded-2xl relative  transform hover:scale-105 transition-transform duration-500 ease-in-out">
             <div className="absolute top-6 left-7">
               <svg
@@ -446,7 +462,9 @@ function Mac() {
         </div>
 
         <div className="mt-32 sm:mt-52">
-          <p className="text-3xl ml-5 sm:text-5xl font-semibold sm:ml-20">Significant others.</p>
+          <p className="text-3xl ml-5 sm:text-5xl font-semibold sm:ml-20">
+            Significant others.
+          </p>
         </div>
 
         <div className="h-auto w-auto bg-white mt-20 rounded-3xl">
@@ -510,30 +528,37 @@ function Mac() {
         </div>
 
         <div className="mt-32 sm:mt-52">
-          <p className="text-3xl ml-5 sm:text-5xl font-semibold sm:ml-20">Mac essentials.</p>
+          <p className="text-3xl ml-5 sm:text-5xl font-semibold sm:ml-20">
+            Mac essentials.
+          </p>
         </div>
 
         <div className="flex flex-wrap justify-center space-x-10 mt-12">
           <div className="h-400 w-500 relative overflow-hidden bg-white rounded-lg">
-            <p className='text-2xl font-bold pl-52 pt-12 '>Mac Accessorise</p>
-            <p className="mt-2 ml-36">Explore keybord, mice and other essentials.</p>
+            <p className="text-2xl font-bold pl-52 pt-12 ">Mac Accessorise</p>
+            <p className="mt-2 ml-36">
+              Explore keybord, mice and other essentials.
+            </p>
             <img
               src="https://www.apple.com/v/mac/home/bx/images/overview/essentials/essentials_accessories__dglhsic54owi_large.jpg"
-              alt="" className="mt-40"
+              alt=""
+              className="mt-40"
             />
           </div>
 
           <div className="h-400 w-500 relative overflow-hidden bg-white rounded-lg ">
-            <p className='text-2xl font-bold pl-52 pt-12 '>Studio Display</p>
-            <p className="mt-2 ml-20">The 68.29 cm (27″) 5K Retina display pairs beautifully with any Mac.</p>
+            <p className="text-2xl font-bold pl-52 pt-12 ">Studio Display</p>
+            <p className="mt-2 ml-20">
+              The 68.29 cm (27″) 5K Retina display pairs beautifully with any
+              Mac.
+            </p>
             <img
               src="https://www.apple.com/v/mac/home/bx/images/overview/essentials/essentials_display__bk3i351qm0c2_large.jpg"
-              alt="" className="mt-40"
+              alt=""
+              className="mt-40"
             />
           </div>
         </div>
-
-       
 
         <div className="ml-5 mr-5  sm:ml-32 sm:mr-32 mt-52">
           <p>
@@ -614,15 +639,13 @@ function Mac() {
           </p>
         </div>
 
-        <div className="h-0.5 w-150 bg-gray-600 ml-5 mr-5 sm:ml-32 sm:mr-32 mt-4">
+        <div className="h-0.5 w-150 bg-gray-600 ml-5 mr-5 sm:ml-32 sm:mr-32 mt-4"></div>
 
-</div>
-
-<div className="ml-6 mr-6 sm:ml-32 sm:mr-32 mt-1 mb-10">
- <p>Copyright <sup>@</sup>2023 Apple inc. All right reserved.</p>
-</div>
-
-
+        <div className="ml-6 mr-6 sm:ml-32 sm:mr-32 mt-1 mb-10">
+          <p>
+            Copyright <sup>@</sup>2023 Apple inc. All right reserved.
+          </p>
+        </div>
       </div>
     </>
   );
