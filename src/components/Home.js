@@ -319,9 +319,9 @@ function Main() {
 </div> */}
 
 
-<div className="flex justify-left ml-3  space-x-6 mt-12 overflow-x-scroll overflow-y-hidden no-scrollbar scroll whitespace-nowrap scroll smooth  min-w-screen max-w-full">
+<div className="flex justify-left sm:justify-center ml-3  space-x-6 mt-12 overflow-x-scroll overflow-y-hidden no-scrollbar scroll whitespace-nowrap scroll smooth  min-w-screen max-w-full">
 
-  <div className="flex-shrink-0 flex bg-white rounded-2xl sm:w-full md:w-1/2 lg:w-1/3 xl:w-1/4 h-96 transform hover:scale-105 transition-transform duration-300 ease-in-out">
+  <div className="flex-shrink-0 flex bg-white rounded-2xl w-500 h-400 transform hover:scale-105 transition-transform duration-300 ease-in-out">
     <img
       src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692719973220"
       alt=""
@@ -338,7 +338,7 @@ function Main() {
     </p>
   </div>
 
-  <div className="flex-shrink-0 flex bg-black sm:w-full md:w-1/2 lg:w-1/3 xl:w-1/4 h-96 rounded-2xl transform hover:scale-105 transition-transform duration-300 ease-in-out">
+  <div className="flex-shrink-0 flex bg-black w-500 h-400 rounded-2xl transform hover:scale-105 transition-transform duration-300 ease-in-out">
     <img
       src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692910040844"
       alt=""
@@ -355,7 +355,7 @@ function Main() {
     </p>
   </div>
 
-  <div className="flex-shrink-0 flex bg-white  sm:w-full md:w-1/2 lg:w-1/3 xl:w-1/4 h-96 rounded-2xl transform hover:scale-105 transition-transform duration-300 ease-in-out">
+  <div className="flex-shrink-0 flex bg-white w-500 h-400 rounded-2xl transform hover:scale-105 transition-transform duration-300 ease-in-out">
     <img
       src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-pro-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1696964122967"
       alt=""
@@ -393,7 +393,7 @@ function Main() {
           </p>
         </div>
 
-        <div className="flex justify-left ml-3 space-x-6 mt-12  overflow-x-scroll overflow-y-hidden no-scrollbar  scroll whitespace-nowrap scroll-smooth">
+        <div className="flex justify-left sm:justify-center ml-3 space-x-6 mt-12  overflow-x-scroll overflow-y-hidden no-scrollbar  scroll whitespace-nowrap scroll-smooth">
 
           <div className="flex-shrink-0  bg-white h-400 w-500 rounded-2xl relative  transform hover:scale-105 transition-transform duration-301 ease-in-out flex items-center justify-center">
             <img

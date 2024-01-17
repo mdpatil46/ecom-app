@@ -51,100 +51,56 @@ function Mac() {
           </p>
         </div>
 
-        <div className="flex  justify-center  space-x-6 mt-12  overflow-y-scroll no-scrollbar  whitespace-nowrap ">
-          
-          <figure className="relative max-w-sm transition-all duration-300 ">
-            <img
-              className="rounded-lg"
-              src="https://www.apple.com/v/mac/home/bx/images/overview/consider/mac_ease__bvgkz2zdltxy_large.jpg"
-              alt=" description"
-            />
-          </figure>
+        <div className="flex  justify-left sm:justify-center  ml-3 space-x-6 mt-12  overflow-y-hidden overflow-x-scroll no-scrollbar   whitespace-nowrap ">
 
-          <figure className="relative max-w-sm transition-all duration-300 ">
+         <div className="flex-shrink-0 bg-black   rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <img
-              className="rounded-lg"
               src="https://www.apple.com/v/mac/home/bx/images/overview/consider/mac_performance__dh5hyac1zf8m_large.jpg"
-              alt=" description"
+              alt=""
+              className="  rounded-2xl"
             />
-          </figure>
-
-          <figure className="relative max-w-sm transition-all duration-300 ">
-            <img
-              className="rounded-lg"
-              src="https://www.apple.com/in/mac/home/images/overview/consider/mac_iphone__gh1tblkt6bqm_large.jpg"
-              alt=" description"
-            />
-          </figure>
-
-          {/* <figure className="relative max-w-sm transition-all duration-300 ">
-            <img
-              className="rounded-lg"
-              src="https://www.apple.com/in/mac/home/images/overview/consider/mac_compatibility__cu59oukz81ci_large.jpg"
-              alt=" description"
-            />
-
+            
+            <p className="absolute top-0 left-0 pt-8 pl-5 font-semibold text-gray-300  text-xl">
+             Performance and Battery Life 
+            </p>
+            <p className="absolute top-5 left-0 pt-10 pl-5 font-semibold text-white  text-3xl">
+             Go fast. Go far.
+            </p>
            
-          </figure> */}
+          </div>
 
-          {/* <div className="bg-black   rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
-            <img
-              src="https://www.apple.com/v/mac/home/bx/images/overview/consider/mac_performance__dh5hyac1zf8m_large.jpg"
-              alt=""
-              className="  rounded-t-2xl"
-            />
-            <p className="absolute top-0 left-0 text-white pt-5 pl-5 text-sm font-semibold">
-              IPHONE 15 PRO
-            </p>
-            <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-white text-3xl">
-              Titanium
-            </p>
-            <p className="absolute top-0 left-0 pt-24 pl-5  text-white text-xl">
-              From &#8377;134900.00 
-            </p>
-          </div> */}
-
-          {/* <div className="bg-white  rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
+           <div className="flex-shrink-0 bg-white  rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <img
               src="https://www.apple.com/in/mac/home/images/overview/consider/mac_iphone__gh1tblkt6bqm_large.jpg"
               alt=""
-              className=" rounded-t-2xl"
+              className=" rounded-2xl"
             />
-            <p className="absolute top-0 left-0 text-gray-500 pt-5 pl-5 text-sm font-semibold">
-              MACBOOK PRO 14" AND 16"
+            <p className="absolute top-0 left-0 pt-8 pl-5 font-semibold text-black  text-xl">
+             Mac and iPhone 
             </p>
-            <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-black text-3xl">
-              Mind-blowing.
+            <p className="absolute top-5 left-0 pt-10 pl-5 font-semibold text-black  text-3xl">
+             Drem team.
             </p>
-            <p className="absolute top-0 left-0 pt-20 pl-5 font-semibold text-black text-3xl">
-              Head-turning.
-            </p>
-            <p className="absolute top-0 left-0 pt-32 pl-5  text-black text-xl">
-              From &#8377;169900.00
-            </p>
-          </div> */}
+          </div> 
 
-          {/* <div className="bg-white  rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="flex-shrink-0 bg-white  rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <img
               src="https://www.apple.com/in/mac/home/images/overview/consider/mac_compatibility__cu59oukz81ci_large.jpg"
               alt=""
-              className=" rounded-t-2xl"
+              className=" rounded-2xl"
             />
-            <p className="absolute top-0 left-0 text-gray-500 pt-5 pl-5 text-sm font-semibold">
-              MACBOOK PRO 14" AND 16"
+       <p className="absolute top-0 left-0 pt-8 pl-5 font-semibold text-black  text-xl">
+             Campatibility
             </p>
-            <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-black text-3xl">
-              Mind-blowing.
+            <p className="absolute top-5 left-0 pt-9 pl-5 font-semibold text-black  text-3xl">
+             Mac runs your
             </p>
-            <p className="absolute top-0 left-0 pt-20 pl-5 font-semibold text-black text-3xl">
-              Head-turning.
-            </p>
-            <p className="absolute top-0 left-0 pt-32 pl-5  text-black text-xl">
-              From &#8377;169900.00
+            <p className="absolute top-5 left-0 pt-16 pl-5 font-semibold text-black  text-3xl">
+             fevourite apps.
             </p>
           </div>
 
-          <div className="bg-white  rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
+          {/* <div className="flex-shrink-0 bg-white  rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
             <img
               src="https://www.apple.com/in/mac/home/images/overview/consider/mac_compatibility__cu59oukz81ci_large.jpg"
               alt=""
@@ -162,7 +118,7 @@ function Mac() {
             <p className="absolute top-0 left-0 pt-32 pl-5  text-black text-xl">
               From &#8377;169900.00
             </p>
-          </div> */}
+          </div>  */}
         </div>
 
         <div>
@@ -207,11 +163,11 @@ function Mac() {
             Displays
           </button>
 
-          <div>
+          <div className="h-96 w-full">
             {div1 && (
               <div>
-                <div className="flex flex-wrap justify-center space-x-6 mt-10">
-                  <div className="bg-gray-200  h-80 w-82  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+                <div className="flex flex-relative justify-left sm:justify-center space-x-6 mt-10 overflow-x-scroll sm:overflow-x-hidden overflow-y-hidden no-scrollbar">
+                  <div className="flex-shrink-0 bg-gray-200  h-80 w-82  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
                     <img
                       src="https://www.apple.com/v/mac/home/bx/images/overview/select/product_tile_mba_13__ci4jh6tvqvyq_large.png"
                       alt=""
@@ -225,7 +181,7 @@ function Mac() {
                     </p>
                   </div>
 
-                  <div className="bg-gray-200  h-80 w-82  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+                  <div className= "flex-shrink-0 bg-gray-200  h-80 w-82  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
                     <img
                       src="https://www.apple.com/v/mac/home/bx/images/overview/select/product_tile_mba_13_15__fx2g3qlubdym_large.png"
                       alt=""
@@ -239,7 +195,7 @@ function Mac() {
                     </p>
                   </div>
 
-                  <div className="bg-gray-200  h-80 w-82  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+                  <div className="flex-shrink-0 bg-gray-200  h-80 w-82  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
                     <img
                       src="https://www.apple.com/v/mac/home/bx/images/overview/select/product_tile_mbp_14_16__bkl8zusnkpw2_large.png"
                       alt=""
@@ -256,8 +212,8 @@ function Mac() {
             )}
             {div2 && (
               <div>
-                <div className="flex flex-wrap justify-center space-x-6 mt-10  ">
-                  <div className="bg-gray-200  h-86 w-82  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+                <div className="flex flex-relative justify-left sm:justify-center space-x-6 mt-10 overflow-x-scroll overflow-y-hidden no-scrollbar   ">
+                  <div className="flex-shrink-0 bg-gray-200  h-86 w-82  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
                     <img
                       src="https://www.apple.com/v/mac/home/bx/images/overview/select/product_tile_imac_24__inq0od011wuq_large.png"
                       alt=""
@@ -270,7 +226,7 @@ function Mac() {
                     </p>
                   </div>
 
-                  <div className="bg-gray-200  h-86 w-82  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+                  <div className= "flex-shrink-0 bg-gray-200  h-86 w-82  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
                     <img
                       src="https://www.apple.com/v/mac/home/bx/images/overview/select/product_tile_mac_mini__c4284n3j25w2_large.png"
                       alt=""
@@ -284,7 +240,7 @@ function Mac() {
                     </p>
                   </div>
 
-                  <div className="bg-gray-200  h-86 w-82  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+                  <div className="flex-shrink-0 bg-gray-200  h-86 w-82  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
                     <img
                       src="https://www.apple.com/v/mac/home/bx/images/overview/select/product_tile_mac_studio__c24lhkuq4vee_large.png"
                       alt=""
@@ -302,8 +258,8 @@ function Mac() {
             )}
             {div3 && (
               <div>
-                <div className="flex flex-wrap justify-center space-x-6 mt-10">
-                  <div className="bg-gray-200  h-96 w-82  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+                <div className="flex flex-relative justify-left sm:justify-center ml-3 space-x-6 mt-10 overflow-x-scroll sm:overflow-x-hidden overflow-y-hidden no-scrollbar">
+                  <div className="flex-shrink-0  bg-gray-200  h-96 w-82  rounded-2xl relative overflow-hidden transform sm:hover:scale-105 transition-transform duration-500 ease-in-out">
                     <img
                       src="https://www.apple.com/v/mac/home/bx/images/overview/select/product_tile_studio_display__c0gbtkgtsx0m_large.png"
                       alt=""
@@ -317,7 +273,7 @@ function Mac() {
                     </p>
                   </div>
 
-                  <div className="bg-gray-200  h-96 w-82  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
+                  <div className="flex-shrink-0  bg-gray-200  h-96 w-82  rounded-2xl relative overflow-hidden transform hover:scale-105 transition-transform duration-500 ease-in-out">
                     <img
                       src="https://www.apple.com/v/mac/home/bx/images/overview/select/product_tile_pro_display__duklzyfwl92e_large.png"
                       alt=""
@@ -467,8 +423,8 @@ function Mac() {
           </p>
         </div>
 
-        <div className="h-auto w-auto bg-white mt-20 rounded-3xl">
-          <div className="ml-20 flex justify-center  mt-10">
+        <div className="h-96 sm:h-auto w-auto bg-white mt-20 rounded-3xl">
+          <div className="ml-2 sm:ml-10 flex justify-center  mt-10">
             <button
               type="button"
               className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 mt-3"
@@ -533,10 +489,10 @@ function Mac() {
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-center space-x-10 mt-12">
-          <div className="h-400 w-500 relative overflow-hidden bg-white rounded-lg">
-            <p className="text-2xl font-bold pl-52 pt-12 ">Mac Accessorise</p>
-            <p className="mt-2 ml-36">
+        <div className="flex flex-relative justify-center space-x-5 sm:space-x-10 mt-12 ml-1 mr-1">
+          <div className="h-400 w-500 relative overflow-hidden bg-white rounded-lg text-center">
+            <p className="text-2xl font-bold  pt-12 ">Mac Accessorise</p>
+            <p className="mt-2 ">
               Explore keybord, mice and other essentials.
             </p>
             <img
@@ -546,9 +502,9 @@ function Mac() {
             />
           </div>
 
-          <div className="h-400 w-500 relative overflow-hidden bg-white rounded-lg ">
-            <p className="text-2xl font-bold pl-52 pt-12 ">Studio Display</p>
-            <p className="mt-2 ml-20">
+          <div className="h-400 w-500 relative overflow-hidden bg-white rounded-lg text-center ">
+            <p className="text-2xl font-bold  pt-12 ">Studio Display</p>
+            <p className="mt-2">
               The 68.29 cm (27″) 5K Retina display pairs beautifully with any
               Mac.
             </p>

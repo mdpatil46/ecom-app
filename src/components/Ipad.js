@@ -4,7 +4,7 @@ function Ipad() {
   return (
     <>
       <div
-        className="bg-blue-700 h-14 text-white flex items-center w-full sm:h-20"
+        className="bg-black h-14 text-white flex items-center w-full sm:h-20"
         id="blue"
       >
         <div className="mx-2 sm:mx-80 text-center">
@@ -15,13 +15,13 @@ function Ipad() {
         </div>
       </div>
 
-      <div className=" mx-auto flex-wrap justify-center  bg-gray-200 mt-0">
+      <div className=" mx-auto flex-wrap justify-center  bg-gray-200 mt-0 overflow-hidden">
         <div className=" bg-black ">
-          <div className=" flex justify-center items-center ">
-            <div className="text-center ml-6">
-              <p className="text-white text-3xl sm:text-5xl font-extrabold   ">
+          <div className=" flex flex-wrap justify-center items-center ">
+            <div className="text-center sm:ml-6">
+              <p className="text-white text-3xl sm:text-5xl font-semibold sm:font-extrabold mt-8 sm:mt-0  ">
                 iPad Pro{" "}
-                <span className="text-xl text-white font-bold flex  sm:justify-end   ">
+                <span className="text-xl text-white font-bold flex items-center  sm:justify-end   ">
                   {" "}
                   Supercharge by{" "}
                   <img
@@ -29,9 +29,9 @@ function Ipad() {
                     alt=""
                   />{" "}
                 </span>
-                <span className="text-white font-semibold text-xl    flex justify-end sm:justify-evenly">
+                <p className="text-white font-medium sm:font-semibold text-xl ">
                   From &#8377;81900.00*
-                </span>
+                </p>
                 <button
                   type="button"
                   className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 "
@@ -50,13 +50,8 @@ function Ipad() {
           </div>
         </div>
 
-        <div className="flex justify-center sm:items-center bg-white">
-          <img
-            src="https://www.apple.com/in/ipad/images/overview/hero/ipad_hero__d0tgmaq6shm6_large.jpg"
-            alt="ipad3colr"
-            className="ml-48 mt-52 sm:mt-6"
-          />
-          <div className="text-center  mr-20 ">
+        <div className="flex flex-row-reverse flex-wrap justify-center sm:items-center bg-white">
+          <div className="text-center mt-10 sm:mt-0 sm:mr-20 ">
             <p className=" text-3xl sm:text-5xl font-bold ">iPad</p>
             <p className="text-xl sm:text-3xl font-semibold mt-2">
               Loveble.Drawable.
@@ -72,16 +67,21 @@ function Ipad() {
               Buy
             </button>
           </div>
+          <img
+            src="https://www.apple.com/in/ipad/images/overview/hero/ipad_hero__d0tgmaq6shm6_large.jpg"
+            alt="ipad3colr"
+            className=" sm:ml-48 mt-10 sm:mt-6"
+          />
         </div>
 
-        <div className="bg-white h-full w-auto mt-8 ml-7 mr-7">
+        <div className="bg-white h-full w-auto mt-8 ml-4 sm:ml-7 mr-4 sm:mr-7">
           <div className=" flex justify-center ">
-            <p className="text-black text-5xl font-bold mt-20">
+            <p className="text-black text-2xl sm:text-5xl font-bold mt-20">
               Which iPad is right for you?
             </p>
           </div>
-          <div className=" flex justify-relative items-end space-x-20 ml-24 mt-32">
-            <div className="text-center ">
+          <div className=" flex justify-relative items-end space-x-20  sm:ml-24 mt-12 sm:mt-32 overflow-x-scroll no-scrollbar">
+            <div className=" flex-shrink-0 text-center ">
               <img
                 src="https://www.apple.com/v/ipad/home/ch/images/overview/compare_ipad_pro__erf9x8mw04sy_large.png"
                 alt="iPadPro"
@@ -103,7 +103,7 @@ function Ipad() {
                 </button>
               </div>
             </div>
-            <div className=" text-center">
+            <div className="flex-shrink-0  text-center">
               <img
                 src="https://www.apple.com/v/ipad/home/ch/images/overview/compare_ipad_air__bxjv33pk6nte_large.png"
                 alt="iPadPro"
@@ -125,7 +125,7 @@ function Ipad() {
                 Buy
               </button>
             </div>
-            <div className="text-center ">
+            <div className="flex-shrink-0  text-center ">
               <img
                 src="https://www.apple.com/v/ipad/home/ch/images/overview/compare_ipad_10_9__f7p2wja0gwuy_large.png"
                 alt="iPadPro"
@@ -147,7 +147,7 @@ function Ipad() {
                 </button>
               </div>
             </div>
-            <div className="text-center">
+            <div className="flex-shrink-0  text-center">
               <img
                 src="https://www.apple.com/v/ipad/home/ch/images/overview/compare_ipad_10_2__fwgwy7jydtea_large.png"
                 alt="iPadPro"
@@ -169,7 +169,7 @@ function Ipad() {
                 </button>
               </div>
             </div>
-            <div className="text-center">
+            <div className="flex-shrink-0  text-center">
               <img
                 src="https://www.apple.com/v/ipad/home/ch/images/overview/compare_ipad_mini__czcsk9ukpeie_large.png"
                 alt="iPadPro"
@@ -200,34 +200,55 @@ function Ipad() {
           </p>
         </div>
 
-        <div className="flex flex-absolute justify-center space-x-9 mt-12 text-center">
-          <div className="h-400 w-400 relative overflow-hidden bg-white rounded-lg">
+        <div className=" sm:hidden  flex flex-wrap sm:flex-relative  justify-center sm:space-x-8 mt-12 text-center space-y-10 ">
+          <div className="h-400 w-400  overflow-hidden bg-white rounded-lg">
             <p className="text-4xl font-bold mt-20 ">Apple Pencil</p>
             <p className="mt-5 text-xl">Drem it up. Jot it down.</p>
             <img
               src="https://www.apple.com/v/ipad/home/ch/images/overview/apple_pencil__ekq506kmmys2_large.jpg"
               alt=""
-              className="mt-40"
+              className="mt-20 sm:mt-40"
             />
           </div>
 
-          <div className="h-400 w-400 relative overflow-hidden bg-white rounded-lg ">
+          <div className="h-400 w-400  overflow-hidden bg-white rounded-lg ">
             <img
               src="https://www.apple.com/in/ipad/home/images/overview/smart_keyboard_folio__b8j0ydqvjq2q_large.jpg"
               alt=""
             />
-            <p className="text-4xl font-bold mt-20  ">Keybords for iPad</p>
-            <p className="mt-5 text-xl">Keybords that have you coverd.</p>
+            <p className="text-4xl font-bold mt-16 sm:mt-20  ">Keybords for iPad</p>
+            <p className="mt-5 text-xl mb-3">Keybords that have you coverd.</p>
           </div>
         </div>
 
-        <div className="bg-white h-full w-auto mt-8 ml-7 mr-7 ">
+        <div className=" hidden sm:flex  sm:flex-relative  justify-center sm:space-x-8 mt-12 text-center  ">
+          <div className="h-400 w-400  overflow-hidden bg-white rounded-lg">
+            <p className="text-4xl font-bold mt-20 ">Apple Pencil</p>
+            <p className="mt-5 text-xl">Drem it up. Jot it down.</p>
+            <img
+              src="https://www.apple.com/v/ipad/home/ch/images/overview/apple_pencil__ekq506kmmys2_large.jpg"
+              alt=""
+              className="mt-20 sm:mt-40"
+            />
+          </div>
+
+          <div className="h-400 w-400  overflow-hidden bg-white rounded-lg ">
+            <img
+              src="https://www.apple.com/in/ipad/home/images/overview/smart_keyboard_folio__b8j0ydqvjq2q_large.jpg"
+              alt=""
+            />
+            <p className="text-4xl font-bold mt-16 sm:mt-20  ">Keybords for iPad</p>
+            <p className="mt-5 text-xl mb-3">Keybords that have you coverd.</p>
+          </div>
+        </div>
+
+        <div className="bg-white h-full w-auto mt-8 ml-2 sm:ml-7 mr-2 sm:mr-7 ">
           <div className=" text-center relative ">
-            <p className="text-black text-5xl font-bold mt-10 ">
+            <p className="text-black text-3xl sm:text-5xl font-bold  sm:mt-10 ">
             Accessories
             </p>
-            <p className="text-xl mt-4">Explore cases, covers, keyboards,</p>
-            <p className="text-xl "> Apple Pencil, AirPods and more.</p>
+            <p className="text-base sm:text-xl mt-4">Explore cases, covers, keyboards,</p>
+            <p className="text-base sm:text-xl"> Apple Pencil, AirPods and more.</p>
           </div>
           <div className="flex justify-center">
          <img src="https://www.apple.com/v/ipad/home/ch/images/overview/accessories__gdpezee1naai_large.jpg" alt="" className="mt-20" />
