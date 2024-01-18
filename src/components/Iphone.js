@@ -12,7 +12,7 @@ function Iphone() {
         </div>
       </div>
 
-      <div className=" mx-auto flex-wrap justify-center  bg-gray-200 mt-0">
+      <div className=" mx-auto flex-wrap justify-center  bg-gray-200 mt-0 overflow-hidden">
         <div className="bg-black flex justify-center items-center">
           <div className="flex flex-col items-center justify-center">
             <p className="text-sm text-red-700 mt-24">New</p>
@@ -44,50 +44,50 @@ function Iphone() {
         </div>
 
         <div className="bg-white flex justify-center items-center">
-          <div className="flex flex-col items-center justify-center">
-            <p className="text-sm text-red-700 mt-24">New</p>
+          <div className="flex flex-shrink-0 flex-col items-center justify-center">
+            <p className="text-sm text-red-700 mt-12 sm:mt-24">New</p>
             <img
               src="https://www.apple.com/v/iphone/home/br/images/overview/hero/iphone_15_logo__bva4cdj5koty_large.jpg"
               alt=""
-              className="mt-5"
+              className="mt-2 sm:mt-5"
             />
-            <p className="mt-6 text-black text-5xl font-bold">Newphoria</p>
-            <p className="text-black text-xl font-bold mt-5">
+            <p className="mt-3 sm:mt-6 text-black text-3xl sm:text-5xl font-bold">Newphoria</p>
+            <p className="text-black text-base sm:text-xl font-bold mt-3 sm:mt-5">
               From ₹12483.00/mo.‡ or ₹79900.00*
             </p>
             <button
               type="button"
-              className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-5"
+              className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-3 sm:mt-5"
             >
               Buy
             </button>
             <img
               src="https://www.apple.com/v/iphone/home/br/images/overview/hero/hero_iphone_15__fano21ho6fqu_large.jpg"
               alt=""
-              className="mt-8"
+              className="mt-2 sm:mt-8"
             />
           </div>
         </div>
 
-        <div className="flex flex-absolute justify-center space-x-9 bg-white text-center mt-5">
+        <div className=" sm:hidden flex  flex-col  justify-center space-x-9 bg-white text-center mt-5">
           <div className="flex flex-col items-center justify-cenetr relative">
             <img
               src="https://www.apple.com/v/iphone/home/br/images/overview/hero/iphone_se_logo__ii1n5sjcmci2_large.jpg"
               alt=""
-              className="mt-64"
+              className="mt-10 sm:mt-64"
             />
-            <p className="mt-6 text-blue-500 text-5xl font-bold">
+            <p className="mt-3 sm:mt-6 text-blue-500 text-3xl sm:text-5xl font-bold">
               Love the power.
             </p>
-            <p className="mt-4 text-blue-500 text-5xl font-bold">
+            <p className="mt-2 sm:mt-4 text-blue-500 text-3xl sm:text-5xl font-bold">
               Love the price.
             </p>
-            <p className="text-black text-xl font-semibold mt-5">
+            <p className="text-black text-xl font-semibold mt-2 sm:mt-5">
               From ₹49900.00*
             </p>
             <button
               type="button"
-              className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-5"
+              className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-3 sm:mt-5"
             >
               Buy
             </button>
@@ -96,18 +96,61 @@ function Iphone() {
             <img
               src="https://www.apple.com/v/iphone/home/br/images/overview/hero/iphone_se_hero__gd586pazxqqa_large.jpg"
               alt=""
-              className="mt-8"
+              className="  h-96 w-full mt-5 sm:mt-8"
             />
           </div>
         </div>
 
-        <div className="mt-5 ml-5 mr-5 relative">
-          <img
-            src="https://www.apple.com/v/iphone/home/br/images/overview/subhero/guided_tour__c40f88on9o8y_large.jpg"
-            alt=""
-            className="rounded-3xl object-cover w-full h-full"
-          />
-          <div className="absolute top-0 left-0 right-0 bottom-0 ">
+        <div className="  hidden sm:flex  flex-absolute  justify-center space-x-9 bg-white text-center mt-5">
+          <div className="flex flex-col items-center justify-cenetr relative">
+            <img
+              src="https://www.apple.com/v/iphone/home/br/images/overview/hero/iphone_se_logo__ii1n5sjcmci2_large.jpg"
+              alt=""
+              className="mt-10 sm:mt-64"
+            />
+            <p className="mt-3 sm:mt-6 text-blue-500 text-3xl sm:text-5xl font-bold">
+              Love the power.
+            </p>
+            <p className="mt-2 sm:mt-4 text-blue-500 text-3xl sm:text-5xl font-bold">
+              Love the price.
+            </p>
+            <p className="text-black text-xl font-semibold mt-2 sm:mt-5">
+              From ₹49900.00*
+            </p>
+            <button
+              type="button"
+              className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-3 sm:mt-5"
+            >
+              Buy
+            </button>
+          </div>
+          <div>
+            <img
+              src="https://www.apple.com/v/iphone/home/br/images/overview/hero/iphone_se_hero__gd586pazxqqa_large.jpg"
+              alt=""
+              className="  mt-5 sm:mt-8"
+            />
+          </div>
+        </div>
+
+
+
+        <div className=" bg-white mt-0 sm:mt-5 sm:ml-5 sm:mr-5 relative">
+        <div className="sm:hidden text-center">
+            <div className="mt-7 ">
+              <p className="text-black text-xl font-semibold">A Guided Tour of</p>
+              <p className="text-black text-4xl font-semibold mt-2">iPhone 15 &</p>
+              <p className="text-black text-4xl font-semibold">iPhone 15 Pro</p>
+              <button
+                type="button"
+                class="text-blue-700 bg-white hover:bg-white focus:outline-none focus:ring-4 focus:ring-white font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-white mt-2 sm:mt-4"
+              >
+                Watch the film
+              </button>
+            </div>
+          </div>
+
+          <div className="hidden sm:flex absolute top-0 left-0 right-0 bottom-0 ">
             <div className="mt-60 ml-36">
               <p className="text-white text-2xl font-bold">A Guided Tour of</p>
               <p className="text-white text-5xl font-bold mt-3">iPhone 15 &</p>
@@ -120,16 +163,23 @@ function Iphone() {
               </button>
             </div>
           </div>
+          <img
+            src="https://www.apple.com/v/iphone/home/br/images/overview/subhero/guided_tour__c40f88on9o8y_large.jpg"
+            alt=""
+            className="sm:rounded-3xl object-cover w-full h-full"
+          />
+            
+          
         </div>
 
         <div className="bg-white h-full w-auto">
           <div className=" flex justify-center ">
-            <p className="text-black text-5xl font-bold mt-20">
+            <p className="text-black text-2xl sm:text-5xl font-bold mt-10 sm:mt-20">
               Which iPhone is right for you?
             </p>
           </div>
-          <div className=" flex justify-center items-center space-x-20 mt-32">
-            <div className="text-center ">
+          <div className=" flex justify-left sm:justify-center items-center space-x-10 sm:space-x-20 mt-20 sm:mt-32 overflow-x-scroll ml-3 sm:ml-0">
+            <div className=" flex-shrink-0 text-center ">
               <img
                 src="https://www.apple.com/v/iphone/home/br/images/overview/compare/compare_iphone_15_pro__c344odaqs5qq_large.png"
                 alt="iPadPro"
@@ -154,7 +204,7 @@ function Iphone() {
                 <div className="h-0.5 w-44 mt-10 bg-slate-400 mb-5"></div>
               </div>
             </div>
-            <div className=" text-center">
+            <div className=" flex-shrink-0 text-center">
               <img
                 src="https://www.apple.com/v/iphone/home/br/images/overview/compare/compare_iphone_15__cp3codzoxms2_large.png"
                 alt="iPadPro"
@@ -179,7 +229,7 @@ function Iphone() {
               </button>
               <div className="h-0.5 w-44 mt-10 bg-slate-400 mb-5"></div>
             </div>
-            <div className="text-center ">
+            <div className=" flex-shrink-0 text-center ">
               <img
                 src="https://www.apple.com/v/iphone/home/br/images/overview/compare/compare_iphone_14__ct4sjk962pea_large.png"
                 alt="iPadPro"
@@ -204,7 +254,7 @@ function Iphone() {
                 <div className="h-0.5 w-44 mt-10 bg-slate-400 mb-5"></div>
               </div>
             </div>
-            <div className="text-center">
+            <div className="flex-shrink-0 text-center">
               <img
                 src="https://www.apple.com/v/iphone/home/br/images/overview/compare/compare_iphone_se__d5blqx1pgymq_large.png"
                 alt="iPadPro"
