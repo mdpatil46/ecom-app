@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Main() {
@@ -19,6 +20,12 @@ function Main() {
   const gslideRight = () => {
     let rSlider = document.getElementById("my");
     rSlider.scrollLeft = rSlider.scrollLeft + 500;
+  };
+
+  const [firstModel, setFirstModel] = useState(false);
+
+  let myModel = () => {
+    setFirstModel(true);
   };
 
   return (
@@ -198,191 +205,61 @@ function Main() {
           </p>
         </div>
 
-         
-       
+        <div className="flex justify-left sm:justify-center ml-3  space-x-6 mt-12 overflow-x-scroll overflow-y-hidden no-scrollbar scroll whitespace-nowrap scroll smooth  min-w-screen max-w-full">
+          <div className="flex-shrink-0 flex bg-white rounded-2xl w-500 h-400 transform hover:scale-105 transition-transform duration-300 ease-in-out">
+            <img
+              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692719973220"
+              alt=""
+              className="w-full h-auto rounded-t-2xl"
+            />
+            <p className="absolute top-0 left-0 text-gray-500 pt-5 pl-5 text-sm font-semibold">
+              IPHONE 15
+            </p>
+            <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-black text-3xl">
+              Newphoria
+            </p>
+            <p className="absolute top-0 left-0 pt-24 pl-5 text-black text-xl">
+              From &#8377;79900.00
+            </p>
+          </div>
 
-        {/* <div className="flex justify-center space-x-6 mt-12 overflow-x-scroll scroll whitespace-nowrap scroll smooth min-w-screen">
+          <div className="flex-shrink-0 flex bg-black w-500 h-400 rounded-2xl transform hover:scale-105 transition-transform duration-300 ease-in-out">
+            <img
+              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692910040844"
+              alt=""
+              className="w-full h-auto rounded-t-2xl"
+            />
+            <p className="absolute top-0 left-0 text-white pt-5 pl-5 text-sm font-semibold">
+              IPHONE 15 PRO
+            </p>
+            <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-white text-3xl">
+              Titanium
+            </p>
+            <p className="absolute top-0 left-0 pt-24 pl-5 text-white text-xl">
+              From &#8377;134900.00
+            </p>
+          </div>
 
-<div className="flex-shrink-0 flex bg-white rounded-2xl sm:w-full md:w-2/3 lg:w-1/2 xl:w-1/3 h-400 transform hover:scale-105 transition-transform duration-300 ease-in-out">
-  <img
-    src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692719973220"
-    alt=""
-    className="w-full h-auto rounded-t-2xl"
-  />
-  <p className="absolute top-0 left-0 text-gray-500 pt-5 pl-5 text-sm font-semibold">
-    IPHONE 15
-  </p>
-  <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-black text-3xl">
-    Newphoria
-  </p>
-  <p className="absolute top-0 left-0 pt-24 pl-5 text-black text-xl">
-    From &#8377;79900.00
-  </p>
-</div>
-
-<div className="flex-shrink-0 flex bg-black sm:w-full md:w-2/3 lg:w-1/2 xl:w-1/3 h-400 rounded-2xl transform hover:scale-105 transition-transform duration-300 ease-in-out">
-  <img
-    src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692910040844"
-    alt=""
-    className="w-full h-auto rounded-t-2xl"
-  />
-  <p className="absolute top-0 left-0 text-white pt-5 pl-5 text-sm font-semibold">
-    IPHONE 15 PRO
-  </p>
-  <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-white text-3xl">
-    Titanium
-  </p>
-  <p className="absolute top-0 left-0 pt-24 pl-5 text-white text-xl">
-    From &#8377;134900.00
-  </p>
-</div>
-
-<div className="flex-shrink-0 flex bg-white sm:w-full md:w-2/3 lg:w-1/2 xl:w-1/3 h-400 rounded-2xl transform hover:scale-105 transition-transform duration-300 ease-in-out">
-  <img
-    src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-pro-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1696964122967"
-    alt=""
-    className="w-full h-auto rounded-t-2xl"
-  />
-  <p className="absolute top-0 left-0 text-gray-500 pt-5 pl-5 text-sm font-semibold">
-    MACBOOK PRO 14" AND 16"
-  </p>
-  <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-black text-3xl">
-    Mind-blowing.
-  </p>
-  <p className="absolute top-0 left-0 pt-20 pl-5 font-semibold text-black text-3xl">
-    Head-turning.
-  </p>
-  <p className="absolute top-0 left-0 pt-32 pl-5 text-black text-xl">
-    From &#8377;169900.00
-  </p>
-</div>
-
-</div> */}
-
-
-{/* <div className="flex justify-center space-x-6 mt-12 overflow-x-scroll scroll whitespace-nowrap scroll smooth min-w-screen">
-
-  <div className="flex-shrink-0 flex bg-white rounded-2xl w-96 h-96 transform hover:scale-105 transition-transform duration-300 ease-in-out">
-    <img
-      src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692719973220"
-      alt=""
-      className="w-full h-auto rounded-t-2xl"
-    />
-    <p className="absolute top-0 left-0 text-gray-500 pt-5 pl-5 text-sm font-semibold">
-      IPHONE 15
-    </p>
-    <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-black text-3xl">
-      Newphoria
-    </p>
-    <p className="absolute top-0 left-0 pt-24 pl-5 text-black text-xl">
-      From &#8377;79900.00
-    </p>
-  </div>
-
-  <div className="flex-shrink-0 flex bg-black w-96 h-96 rounded-2xl transform hover:scale-105 transition-transform duration-300 ease-in-out">
-    <img
-      src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692910040844"
-      alt=""
-      className="w-full h-auto rounded-t-2xl"
-    />
-    <p className="absolute top-0 left-0 text-white pt-5 pl-5 text-sm font-semibold">
-      IPHONE 15 PRO
-    </p>
-    <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-white text-3xl">
-      Titanium
-    </p>
-    <p className="absolute top-0 left-0 pt-24 pl-5 text-white text-xl">
-      From &#8377;134900.00
-    </p>
-  </div>
-
-  <div className="flex-shrink-0 flex bg-white w-96 h-96 rounded-2xl transform hover:scale-105 transition-transform duration-300 ease-in-out">
-    <img
-      src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-pro-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1696964122967"
-      alt=""
-      className="w-full h-auto rounded-t-2xl"
-    />
-    <p className="absolute top-0 left-0 text-gray-500 pt-5 pl-5 text-sm font-semibold">
-      MACBOOK PRO 14" AND 16"
-    </p>
-    <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-black text-3xl">
-      Mind-blowing.
-    </p>
-    <p className="absolute top-0 left-0 pt-20 pl-5 font-semibold text-black text-3xl">
-      Head-turning.
-    </p>
-    <p className="absolute top-0 left-0 pt-32 pl-5 text-black text-xl">
-      From &#8377;169900.00
-    </p>
-  </div>
-
-</div> */}
-
-
-<div className="flex justify-left sm:justify-center ml-3  space-x-6 mt-12 overflow-x-scroll overflow-y-hidden no-scrollbar scroll whitespace-nowrap scroll smooth  min-w-screen max-w-full">
-
-  <div className="flex-shrink-0 flex bg-white rounded-2xl w-500 h-400 transform hover:scale-105 transition-transform duration-300 ease-in-out">
-    <img
-      src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692719973220"
-      alt=""
-      className="w-full h-auto rounded-t-2xl"
-    />
-    <p className="absolute top-0 left-0 text-gray-500 pt-5 pl-5 text-sm font-semibold">
-      IPHONE 15
-    </p>
-    <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-black text-3xl">
-      Newphoria
-    </p>
-    <p className="absolute top-0 left-0 pt-24 pl-5 text-black text-xl">
-      From &#8377;79900.00
-    </p>
-  </div>
-
-  <div className="flex-shrink-0 flex bg-black w-500 h-400 rounded-2xl transform hover:scale-105 transition-transform duration-300 ease-in-out">
-    <img
-      src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692910040844"
-      alt=""
-      className="w-full h-auto rounded-t-2xl"
-    />
-    <p className="absolute top-0 left-0 text-white pt-5 pl-5 text-sm font-semibold">
-      IPHONE 15 PRO
-    </p>
-    <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-white text-3xl">
-      Titanium
-    </p>
-    <p className="absolute top-0 left-0 pt-24 pl-5 text-white text-xl">
-      From &#8377;134900.00
-    </p>
-  </div>
-
-  <div className="flex-shrink-0 flex bg-white w-500 h-400 rounded-2xl transform hover:scale-105 transition-transform duration-300 ease-in-out">
-    <img
-      src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-pro-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1696964122967"
-      alt=""
-      className="w-full h-auto rounded-t-2xl"
-    />
-    <p className="absolute top-0 left-0 text-gray-500 pt-5 pl-5 text-sm font-semibold">
-      MACBOOK PRO 14" AND 16"
-    </p>
-    <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-black text-3xl">
-      Mind-blowing.
-    </p>
-    <p className="absolute top-0 left-0 pt-20 pl-5 font-semibold text-black text-3xl">
-      Head-turning.
-    </p>
-    <p className="absolute top-0 left-0 pt-32 pl-5 text-black text-xl">
-      From &#8377;169900.00
-    </p>
-  </div>
-
-</div>
-
-
-
-
-
-        
-       
+          <div className="flex-shrink-0 flex bg-white w-500 h-400 rounded-2xl transform hover:scale-105 transition-transform duration-300 ease-in-out">
+            <img
+              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-pro-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1696964122967"
+              alt=""
+              className="w-full h-auto rounded-t-2xl"
+            />
+            <p className="absolute top-0 left-0 text-gray-500 pt-5 pl-5 text-sm font-semibold">
+              MACBOOK PRO 14" AND 16"
+            </p>
+            <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-black text-3xl">
+              Mind-blowing.
+            </p>
+            <p className="absolute top-0 left-0 pt-20 pl-5 font-semibold text-black text-3xl">
+              Head-turning.
+            </p>
+            <p className="absolute top-0 left-0 pt-32 pl-5 text-black text-xl">
+              From &#8377;169900.00
+            </p>
+          </div>
+        </div>
 
         <div className="mt-10 ml-5 sm:mt-20 sm:ml-20">
           <p className="text-2xl font-semibold sm:text-3xl text-gray-500 sm:font-bold">
@@ -394,7 +271,6 @@ function Main() {
         </div>
 
         <div className="flex justify-left sm:justify-center ml-3 space-x-6 mt-12  overflow-x-scroll overflow-y-hidden no-scrollbar  scroll whitespace-nowrap scroll-smooth">
-
           <div className="flex-shrink-0  bg-white h-400 w-500 rounded-2xl relative  transform hover:scale-105 transition-transform duration-301 ease-in-out flex items-center justify-center">
             <img
               src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-40-merch-card-productred-202311?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1698942978880"
@@ -479,7 +355,10 @@ function Main() {
           className="flex justify-relative space-x-6 mt-10 ml-5 sm:ml-20 mr-5 sm:mr-10 overflow-x-scroll overflow-y-hidden no-scrollbar  scroll whitespace-nowrap scroll-smooth  "
           id="my"
         >
-          <div className="bg-white  h-64 w-72  rounded-2xl   transform hover:scale-105 transition-transform duration-500 ease-in-out">
+          <div
+            className="bg-white  h-64 w-72  rounded-2xl   transform hover:scale-105 transition-transform duration-500 ease-in-out"
+            onClick={myModel}
+          >
             <div className="absolute top-6 left-7">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -511,7 +390,26 @@ function Main() {
             </p>
           </div>
 
-          <div className="bg-white h-64 w-72  rounded-2xl    transform hover:scale-105 transition-transform duration-500 ease-in-out ">
+          {firstModel && (
+            <div className="fixed inset-0 bg-gray-400 bg-opacity-95 flex items-center justify-center"  style={{ zIndex: 1000 }}>
+              <div className="bg-white p-6 h-96 w-10/12 rounded shadow-lg overflow-y-auto no-scrollbar  whitespace-normal">
+                <h1 className="text-4xl font-bold"> Test Model</h1>
+                <p className="text-xl font-semibold mt-5">
+                  This is the modal content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolorum sit laboriosam quos veritatis vel ad quibusdam rem. Fugiat modi beatae perspiciatis laborum cupiditate quas impedit vel facilis asperiores tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero fugit repellat facere amet consequuntur fuga tenetur tempora a odio nulla in explicabo aspernatur, veniam natus quisquam minima. Facilis, sed? Cupiditate!
+                </p>
+                <button
+                  onClick={() => {
+                    setFirstModel(false);
+                  }}
+                  className="bg-red-500 text-white py-2 px-4 rounded mt-28"
+                >
+                  Close Modal
+                </button>
+              </div>
+            </div>
+          )}
+
+          <div className="bg-white h-64 w-72  rounded-2xl    transform hover:scale-105 transition-transform duration-500 ease-in-out " onClick={myModel}>
             <div className="">
               <svg
                 height="100"
@@ -527,7 +425,7 @@ function Main() {
             </p>
           </div>
 
-          <div className="bg-white h-64 w-72 rounded-2xl   transform hover:scale-105 transition-transform duration-500 ease-in-out">
+          <div className="bg-white h-64 w-72 rounded-2xl   transform hover:scale-105 transition-transform duration-500 ease-in-out" onClick={myModel}>
             <div className="absolute top-6 left-7">
               <svg
                 height="56"
@@ -556,7 +454,7 @@ function Main() {
             <p className="text-2xl text-purple-700 font-semibold ml-7">free</p>
           </div>
 
-          <div className="bg-white  h-64 w-72 rounded-2xl  transform hover:scale-105 transition-transform duration-500 ease-in-out">
+          <div className="bg-white  h-64 w-72 rounded-2xl  transform hover:scale-105 transition-transform duration-500 ease-in-out" onClick={myModel}>
             <div className="absolute top-6 left-7">
               <svg
                 height="56"
@@ -585,7 +483,7 @@ function Main() {
             </p>
           </div>
 
-          <div className="bg-white  h-64 w-72 rounded-2xl  transform hover:scale-105 transition-transform duration-500 ease-in-out">
+          <div className="bg-white  h-64 w-72 rounded-2xl  transform hover:scale-105 transition-transform duration-500 ease-in-out" onClick={myModel}>
             <div className="absolute top-6 left-7">
               <svg
                 height="56"
@@ -614,7 +512,7 @@ function Main() {
             </p>
           </div>
 
-          <div className="bg-white h-64 w-72 rounded-2xl   transform hover:scale-105 transition-transform duration-500 ease-in-out">
+          <div className="bg-white h-64 w-72 rounded-2xl   transform hover:scale-105 transition-transform duration-500 ease-in-out" onClick={myModel}>
             <div className="absolute top-6 left-7">
               <svg
                 height="56"

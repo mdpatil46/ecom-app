@@ -9,6 +9,9 @@ function Mac() {
   const [photo2, setPhoto2] = useState(false);
   const [photo3, setPhoto3] = useState(false);
 
+
+  const[model, setModel] = useState(false)
+
   return (
     <>
       <div
@@ -100,25 +103,7 @@ function Mac() {
             </p>
           </div>
 
-          {/* <div className="flex-shrink-0 bg-white  rounded-2xl relative  transform hover:scale-105 transition-transform duration-300 ease-in-out">
-            <img
-              src="https://www.apple.com/in/mac/home/images/overview/consider/mac_compatibility__cu59oukz81ci_large.jpg"
-              alt=""
-              className="  rounded-t-2xl"
-            />
-            <p className="absolute top-0 left-0 text-gray-500 pt-5 pl-5 text-sm font-semibold">
-              MACBOOK PRO 14" AND 16"
-            </p>
-            <p className="absolute top-0 left-0 pt-12 pl-5 font-semibold text-black text-3xl">
-              Mind-blowing.
-            </p>
-            <p className="absolute top-0 left-0 pt-20 pl-5 font-semibold text-black text-3xl">
-              Head-turning.
-            </p>
-            <p className="absolute top-0 left-0 pt-32 pl-5  text-black text-xl">
-              From &#8377;169900.00
-            </p>
-          </div>  */}
+        
         </div>
 
         <div>
@@ -301,7 +286,7 @@ function Mac() {
         </div>
 
         <div className="flex justify-relative space-x-6 mt-10 ml-5 sm:ml-20 mr-5 sm:mr-10 overflow-x-scroll overflow-y-hidden no-scrollbar  scroll whitespace-nowrap scroll-smooth ">
-          <div className="bg-white  h-70 w-72  rounded-2xl relative  transform hover:scale-105 transition-transform duration-500 ease-in-out">
+          <div className="bg-white  h-70 w-72  rounded-2xl relative  transform hover:scale-105 transition-transform duration-500 ease-in-out" onClick={()=>{setModel(true)}}>
             <div className="absolute top-6 left-7">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -328,8 +313,24 @@ function Mac() {
             </p>
             <p className=" text-black font-semibold ml-7">options.</p>
           </div>
+          {model && (<div className="fixed inset-0 bg-gray-400 bg-opacity-95 flex items-center justify-center"  style={{ zIndex: 1000 }}>
+              <div className="bg-white p-6 h-96 w-10/12 rounded shadow-lg overflow-y-auto no-scrollbar  whitespace-normal">
+                <h1 className="text-4xl font-bold"> Test Model</h1>
+                <p className="text-xl font-semibold mt-5">
+                  This is the modal content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolorum sit laboriosam quos veritatis vel ad quibusdam rem. Fugiat modi beatae perspiciatis laborum cupiditate quas impedit vel facilis asperiores tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero fugit repellat facere amet consequuntur fuga tenetur tempora a odio nulla in explicabo aspernatur, veniam natus quisquam minima. Facilis, sed? Cupiditate!
+                </p>
+                <button
+                  onClick={() => {
+                    setModel(false);
+                  }}
+                  className="bg-red-500 text-white py-2 px-4 rounded mt-28"
+                >
+                  Close Modal
+                </button>
+              </div>
+            </div>)}
 
-          <div className="bg-white h-64 w-72  rounded-2xl  relative  transform hover:scale-105 transition-transform duration-500 ease-in-out ">
+          <div className="bg-white h-64 w-72  rounded-2xl  relative  transform hover:scale-105 transition-transform duration-500 ease-in-out " onClick={()=>(setModel(true))}>
             <div className="">
               <svg
                 height="100"
@@ -358,7 +359,7 @@ function Mac() {
             </p>
           </div>
 
-          <div className="bg-white h-64 w-72 rounded-2xl relative  transform hover:scale-105 transition-transform duration-500 ease-in-out">
+          <div className="bg-white h-64 w-72 rounded-2xl relative  transform hover:scale-105 transition-transform duration-500 ease-in-out" onClick={()=>(setModel(true))}>
             <div className="absolute top-6 left-7">
               <svg
                 height="56"
@@ -387,7 +388,7 @@ function Mac() {
             <p className=" text-black font-semibold ml-7">your new Mac.</p>
           </div>
 
-          <div className="bg-white  h-64 w-72 rounded-2xl relative  transform hover:scale-105 transition-transform duration-500 ease-in-out">
+          <div className="bg-white  h-64 w-72 rounded-2xl relative  transform hover:scale-105 transition-transform duration-500 ease-in-out" onClick={()=>(setModel(true))}>
             <div className="absolute top-6 left-7">
               <svg
                 height="56"
