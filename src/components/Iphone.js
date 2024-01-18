@@ -135,7 +135,7 @@ function Iphone() {
 
 
 
-        <div className=" bg-white mt-0 sm:mt-5 sm:ml-5 sm:mr-5 relative">
+        <div className="  mt-0 sm:mt-5 sm:ml-5 sm:mr-5 relative">
         <div className="sm:hidden text-center">
             <div className="mt-7 ">
               <p className="text-black text-xl font-semibold">A Guided Tour of</p>
