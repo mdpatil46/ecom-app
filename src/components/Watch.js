@@ -14,14 +14,14 @@ function Watch() {
         </div>
       </div>
 
-      <div className=" mx-auto flex-wrap justify-center  bg-white mt-0">
+      <div className=" mx-auto flex-wrap justify-center  bg-white mt-0 overflow-hidden">
      
       <div className="bg-black flex justify-center items-center">
           <div className="flex flex-col items-center justify-center">
             <img src="https://www.apple.com/v/watch/bg/images/overview/series-9/logo_watch_s9__cgsiv960o2eu_large.png" alt="" className='mt-20'/>
-           <p className='text-5xl text-white text-bold mt-5'>Smarter. Brighter. Mightier.</p>
+           <p className='text-3xl sm:text-5xl text-white text-bold mt-5'>Smarter. Brighter. Mightier.</p>
            
-            <p className="text-white text-xl font-bold mt-5">
+            <p className="text-white text-base sm:text-xl font-bold mt-5">
               From ₹21483.00/mo.‡ or ₹134900.00*
             </p>
             <button
@@ -40,10 +40,10 @@ function Watch() {
 
         <div className="bg-gray-100 flex justify-center items-center">
           <div className="flex flex-col items-center justify-center">
-           <img src="https://www.apple.com/v/watch/bg/images/overview/ultra/logo_watch_ultra_2__f3dcuqw87r2i_large.png" alt="" className='mt-24'/>
+           <img src="https://www.apple.com/v/watch/bg/images/overview/ultra/logo_watch_ultra_2__f3dcuqw87r2i_large.png" alt="" className='mt-16 sm:mt-24'/>
            
-            <p className="mt-5 text-black text-5xl font-bold">Next-level adventure.</p>
-            <p className="text-black text-xl font-bold mt-5">
+            <p className=" mt-3 sm:mt-5 text-black text-4xl sm:text-5xl font-bold">Next-level adventure.</p>
+            <p className="text-black text-base sm:text-xl font-bold mt-2 sm:mt-5">
             ₹89900.00*
             </p>
             <button
@@ -60,14 +60,38 @@ function Watch() {
           </div>
         </div>
 
-        <div className="bg-gray-100 flex justify-center items-center space-x-44 mt-5">
+        <div className="sm:hidden bg-gray-100 flex flex-col-reverse justify-center items-center  mt-5">
           <div className="flex flex-col items-center justify-center mt-10">
             <img src="https://www.apple.com/v/watch/bg/images/overview/se/logo_watch_se__fy5p07ethi6i_large.png" alt="" className='mt-1' />
-            <p className="text-black text-5xl font-bold  mt-5">
+            <p className="text-black text-3xl sm:text-5xl font-bold  mt-5">
             A great deal to love.
             </p>
        
-            <p className="text-black text-xl mt-10  font-bold">From ₹29900.00*</p>
+            <p className="text-black text-base sm:text-xl mt-4 sm:mt-10  font-bold">From ₹29900.00*</p>
+            <button
+              type="button"
+              className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-5"
+            >
+              Buy
+            </button>
+          </div>
+          <div className="mt-10">
+            <img
+              src="https://www.apple.com/in/watch/home/images/overview/se/tile_watch_se__cuswe7ukqd6q_large.jpg"
+              alt=""
+              className="mt-5"
+            />
+          </div>
+        </div>
+
+        <div className="hidden bg-gray-100 sm:flex  justify-center items-center space-x-44  mt-5">
+          <div className="flex flex-col items-center justify-center mt-10">
+            <img src="https://www.apple.com/v/watch/bg/images/overview/se/logo_watch_se__fy5p07ethi6i_large.png" alt="" className='mt-1' />
+            <p className="text-black text-3xl sm:text-5xl font-bold  mt-5">
+            A great deal to love.
+            </p>
+       
+            <p className="text-black text-base sm:text-xl mt-4 sm:mt-10  font-bold">From ₹29900.00*</p>
             <button
               type="button"
               className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-5"
@@ -86,10 +110,10 @@ function Watch() {
 
         <div className="bg-gray-100 flex justify-center items-center mt-5">
           <div className="flex flex-col items-center justify-center">
-           <img src="https://www.apple.com/v/watch/bg/images/overview/carbon-neutral/logo_carbon_neutral__fwduoutckvqu_large.png" alt="" className='mt-24'/>
+           <img src="https://www.apple.com/v/watch/bg/images/overview/carbon-neutral/logo_carbon_neutral__fwduoutckvqu_large.png" alt="" className='mt-10 sm:mt-24'/>
            
-            <p className="mt-5 text-black text-5xl font-bold">A first for Apple Watch.</p>
-            <p className="mt-1 text-black text-5xl font-bold">And Apple.</p>
+            <p className="mt-5 text-black text-3xl sm:text-5xl font-bold">A first for Apple Watch.</p>
+            <p className="mt-1 text-black text-3xl sm:text-5xl font-bold">And Apple.</p>
             
            
             <img
@@ -101,13 +125,13 @@ function Watch() {
         </div>
 
 
-        <div className="bg-white h-full w-auto">
-          <div className=" flex justify-center ">
-            <p className="text-black text-5xl font-bold mt-20">
+        <div className="bg-white h-full w-auto  ">
+          <div className=" flex justify-center text-center ">
+            <p className="text-black text-3xl sm:text-5xl font-bold mt-20">
               Which Apple Watch is right for you?
             </p>
           </div>
-          <div className=" flex justify-center items-center space-x-20 mt-32">
+          <div className=" flex justify-left sm:justify-center items-center space-x-16 sm:space-x-20 mt-32 overflow-x-scroll no-scrollbar">
             <div className="text-center ">
               <img
                 src="https://www.apple.com/v/watch/bg/images/watch-shared-compare/compare_se__b3w7lpf3fahe_large.jpg"
@@ -187,32 +211,62 @@ function Watch() {
 
         
 
-        <div className="flex flex-absolute justify-center space-x-9 mt-12 text-center ml-3 mr-3">
+        <div className=" hidden sm:flex flex-absolute justify-center space-x-9 mt-12 text-center ml-3 mr-3">
           <div className="h-400 w-400 relative overflow-hidden bg-gray-100 rounded-lg ml-3 ">
-            <p className="text-3xl font-bold mt-20 ">
+            <p className="text-xl sm:text-3xl font-bold mt-20 ">
             Why Apple Watch
             </p>
-            <p className="text-5xl font-bold mt-1 ">It’s the ultimate device</p>
-            <p className="text-5xl font-bold mt-1 ">
+            <p className="text-3xl sm:text-5xl font-bold mt-1 ">It’s the ultimate device</p>
+            <p className=" text-3xl sm:text-5xl font-bold mt-1 ">
             for a healthy life.
             </p>
 
             <img
               src="https://www.apple.com/in/watch/home/images/overview/why-watch/tile_why_watch__ft68r958qmye_large.jpg"
               alt=""
-              className="mt-28"
+              className="mt-24 sm:mt-28"
             />
           </div>
 
           <div className="h-400 w-400 relative overflow-hidden bg-gray-100 rounded-lg mr-3 text-center">
-            <p className="text-3xl font-bold mt-20  ">watchOS 10</p>
-            <p className="text-5xl font-bold mt-1  ">Everything you love.</p>
-            <p className="text-5xl font-bold mt-1  ">like never before.</p>
+            <p className="text-xl sm:text-3xl font-bold mt-20  ">watchOS 10</p>
+            <p className="text-3xl sm:text-5xl font-bold mt-1  ">Everything you love.</p>
+            <p className="text-3xl sm:text-5xl font-bold mt-1  ">like never before.</p>
             
             <img
               src="https://www.apple.com/in/watch/home/images/overview/watchos-10/watchos_banner__bfwu1ze5oy0y_large.jpg"
               alt=""
               className="ml-1 mr-1 mt-32"
+            />
+          </div>
+        </div>
+
+        <div className=" sm:hidden flex flex-col justify-center space-y-5 mt-12 text-center ">
+          <div className="h-400 w-400 relative overflow-hidden bg-gray-100 rounded-lg  ">
+            <p className="text-xl sm:text-3xl font-bold mt-20 ">
+            Why Apple Watch
+            </p>
+            <p className="text-3xl sm:text-5xl font-bold mt-1 ">It’s the ultimate device</p>
+            <p className=" text-3xl sm:text-5xl font-bold mt-1 ">
+            for a healthy life.
+            </p>
+
+            <img
+              src="https://www.apple.com/in/watch/home/images/overview/why-watch/tile_why_watch__ft68r958qmye_large.jpg"
+              alt=""
+              className="mt-24 sm:mt-28"
+            />
+          </div>
+
+          <div className="h-400 w-400 relative overflow-hidden bg-gray-100 rounded-lg text-center">
+            <p className="text-xl sm:text-3xl font-bold mt-20  ">watchOS 10</p>
+            <p className="text-3xl sm:text-5xl font-bold mt-1  ">Everything you love.</p>
+            <p className="text-3xl sm:text-5xl font-bold mt-1  ">like never before.</p>
+            
+            <img
+              src="https://www.apple.com/in/watch/home/images/overview/watchos-10/watchos_banner__bfwu1ze5oy0y_large.jpg"
+              alt=""
+              className="ml-1 mr-1 mt-28 sm:mt-32"
             />
           </div>
         </div>

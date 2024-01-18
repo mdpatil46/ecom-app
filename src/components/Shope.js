@@ -24,9 +24,9 @@ export default function Shope() {
         </div>
       </div>
 
-      <div className=" mx-auto  flex-wrap justify-center  bg-gray-100 ">
+      <div className=" mx-auto  flex-wrap justify-center  bg-gray-100 overflow-hidden ">
 
-      <div className="flex flex-absolute    text-center ">
+      <div className=" hidden sm:flex flex-absolute text-center ">
           <div className="h-400 w-400 relative  bg-white rounded-lg m-3 ">
             <img
               src="https://www.apple.com/v/airpods/u/images/overview/airpods_3rd_gen__dhy5bknhvtqq_large.jpg"
@@ -39,11 +39,40 @@ export default function Shope() {
             </p>
             <p className="text-2xl font-semibold mt-3 ">3rd genration</p>
             <p className="text-2xl font-semibold  ">From ₹19900.00*</p>
+            <button
+                  type="button"
+                  className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-5"
+                >
+                  Buy
+                </button>
             </div>
           </div>
           </div>
 
-          <div className="flex justify-center items-cenetr    text-center ">
+      <div className="sm:hidden flex flex-col    text-center ">
+          <div className="h-400 w-400 relative  bg-white rounded-lg m-3 ">
+            <img
+              src="https://www.apple.com/v/airpods/u/images/overview/airpods_3rd_gen__dhy5bknhvtqq_large.jpg"
+              alt=""
+              className=""
+            />
+            <div className='text-center text-black text-2xl font-bold mt-10'>
+            <p className="text-6xl">
+            AirPods
+            </p>
+            <p className="text-2xl font-semibold mt-3 ">3rd genration</p>
+            <p className="text-2xl font-semibold  ">From ₹19900.00*</p>
+            <button
+                  type="button"
+                  className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-5"
+                >
+                  Buy
+                </button>
+            </div>
+          </div>
+          </div>
+
+          <div className="hidden sm:flex justify-center items-cenetr text-center ">
           <div className="h-400 w-400  bg-white rounded-lg m-3 flex justify-center items-center relative ">
             <img
               src="https://www.apple.com/v/airpods/u/images/overview/airpods_max_logo__bdgdixidcqcy_large.jpg"
@@ -60,7 +89,30 @@ export default function Shope() {
               Buy
             </button>
             </div>
-           
+          </div>
+          </div>
+
+          <div className="sm:hidden flex justify-center items-cenetr    text-center ">
+          <div className="h-400 w-400  bg-white rounded-lg m-3 flex flex-col justify-center items-center relative ">
+            <div>
+            <img src="https://www.apple.com/v/airpods/u/images/overview/airpods_max__f265q4g4ddym_large.png" alt="" className=' mt-10' />
+            </div>
+            <div>
+            <img
+              src="https://www.apple.com/v/airpods/u/images/overview/airpods_max_logo__bdgdixidcqcy_large.jpg"
+              alt=""
+              className=" w-72 mt-20 "
+            />
+            <div className=' mt-3 text-black text-2xl font-bold'>
+            <p className="text-2xl font-semibold">₹59900.00*</p>
+            <button
+              type="button"
+              className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-5"
+            >
+              Buy
+            </button>
+            </div>
+            </div>
           </div>
           </div>
 
@@ -235,7 +287,7 @@ export default function Shope() {
         </div>
 
          
-        <div className=" flex justify-center items-center space-x-5 mt-32">
+        <div className=" flex justify-left sm:justify-center items-center space-x-5 mt-28 overflow-x-scroll no-scrollbar">
             <div className="flex flex-col items-center justify-center text-center ">
               <img
                 src="https://www.apple.com/v/airpods/shared/compare/d/images/compare/compare_airpods_2nd_gen__fw52r8rxrpyu_large.png"

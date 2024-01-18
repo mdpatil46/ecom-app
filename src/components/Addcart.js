@@ -12,18 +12,13 @@ export default function Addcart() {
 
   const inputValue = useSelector((state) => state.counter.names);
 
-  const amountIn = useSelector((state) => state.counter.amount);
+  // const amountIn = useSelector((state) => state.counter.amount);
 
   const addimg = useSelector((state) => state.counter.photo);
   return (
     <>
       
-      <div
-        className=" h-auto w-auto ml-10 mr-10  mt-10 bg-gray-300 rounded-xl  "> 
-        <p className="text-black text-2xl font-bold">
-          Your Total Add Cart Amount = {amountIn}
-        </p>
-      </div>
+      
 
        
       <div>
