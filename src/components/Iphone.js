@@ -1,9 +1,15 @@
 import React from "react";
+import { useState, useEffect } from "react";
 
 function Iphone() {
+  const[color, setColor]= useState(false);
+
+  useEffect(()=>{
+    setColor(true)
+  },[]);
   return (
     <>
-      <div className="bg-gray-100 h-14 text-black flex items-center w-full sm:h-20">
+      <div className={`${color ?'transition-colors duration-[3000ms] bg-black text-white':'bg-blue-600' } h-14 text-black flex items-center w-full sm:h-20`}>
         <div className="mx-2 sm:mx-80 text-center">
           <p className="text-xs sm:text-base">
             Save up to ₹6000.00 instantly on selected iPhone models with HDFC

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 function Mac() {
   const [div1, setDiv1] = useState(true);
@@ -12,10 +12,16 @@ function Mac() {
 
   const[model, setModel] = useState(false)
 
+  const[color, setColor]= useState(false)
+
+  useEffect(()=>{
+    setColor(true)
+  },[]);
+
   return (
     <>
       <div
-        className="bg-black h-18 w-full text-white flex items-center sm:h-20"
+        className={`${ color ? 'transition-colors duration-[3000ms] bg-black text-white' : 'bg-blue-600'} h-18 w-full text-white flex items-center sm:h-20`}
         id="blue"
       >
         <div className="m-2 sm:mx-80 text-center ">

@@ -2,9 +2,6 @@
 import React from "react"
 import contact from "./../contact.jpg"
 
-
-
-
 function Contact() {
 
     function WhatsApp() {
@@ -16,11 +13,9 @@ function Contact() {
         window.location.href = "govindapatil46@gmail.com"
     }
 
-
     return (
         <>
             <div>
-
                 <div className="py-16 px-16 max-w-2xl mx-auto bg-gray-300
 
 rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 my-12">
@@ -43,7 +38,7 @@ rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:s
                 </div>
             </div>
 
-
+         
 
 
         </>

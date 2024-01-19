@@ -1,11 +1,17 @@
 import React from "react";
+import { useState, useEffect } from "react";
 
 function Ipad() {
+  const[color, setColor]= useState(false)
+
+  useEffect(()=>{
+    setColor(true)
+  },[]);
   return (
     <>
       <div
-        className="bg-black h-14 text-white flex items-center w-full sm:h-20"
-        id="blue"
+        className={`${ color ? 'transition-colors duration-[3000ms] bg-black text-white' : 'bg-blue-600'} h-14 text-white flex items-center w-full sm:h-20`}
+        
       >
         <div className="mx-2 sm:mx-80 text-center">
           <p className="text-xs sm:text-base">

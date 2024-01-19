@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 function Main() {
@@ -28,11 +28,21 @@ function Main() {
     setFirstModel(true);
   };
 
+  const[color, setColor] = useState(false)
+  
+  useEffect(()=>{
+    setColor(true)
+  },[]);
+
   return (
     <>
       <div
-        className="bg-blue-700 h-18 w-full text-white flex items-center sm:h-20 "
-        id="blueE"
+        className={`${
+          color
+            ? 'transition-colors duration-[3000ms] bg-white text-black'
+            : 'bg-blue-600'
+        } h-18 w-full  flex items-center sm:h-20 `}
+        
       >
         <div className=" m-2 sm:mx-36 text-center ">
           <p className="text-xs sm:text-sm ">

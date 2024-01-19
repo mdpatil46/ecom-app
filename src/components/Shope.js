@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+
+import { useState, useEffect } from "react";
 
 
 export default function Shope() {
@@ -13,10 +14,16 @@ export default function Shope() {
         let rSlider = document.getElementById("slider");
         rSlider.scrollLeft = rSlider.scrollLeft + 500;
       };
+
+      const[color, setColor]= useState(false);
+
+      useEffect(()=>{
+        setColor(true)
+      },[]);
     
     return (
         <>
-      <div className="bg-gray-100 h-14 text-black  items-center w-full sm:h-20">
+       <div className={`${color ?'transition-colors duration-[3000ms] bg-black text-white':'bg-blue-600' } h-14 text-black flex items-center w-full sm:h-20`}>
         <div className="mx-2 sm:mx-80 text-center">
           <p className="text-xs sm:text-base">
           Save ₹1000.00 instantly on AirPods Pro with HDFC Bank Credit Cards.+ Plus No Cost EMI from most leading banks.
@@ -166,66 +173,72 @@ export default function Shope() {
           className=" flex justify-relative space-x-6 mt-10 ml-5 sm:ml-20 mr-5 sm:mr-10 overflow-x-scroll no-scrollbar  scroll whitespace-nowrap scroll-smooth "
           id="slider"
         >
-          <Link to="/">
+         
             {" "}
-            <div className=" md:bg-white  h-96 w-96  rounded-2xl relative text-center  ">
+            <div className="flex shrink-0 md:bg-white  h-96 w-96  rounded-2xl relative text-center  ">
               <img
                 src="https://www.apple.com/in/airpods/images/overview/tile_onetap_setup__fzj1m8dhjoq6_large.jpg"
                 alt=""
+                className='hover:animate-pulse'
               />
               {/* <p className="text-black font-semibold ml-24 mt-3">Mac</p> */}
             </div>
-          </Link>
+        
 
-          <Link to="/">
-            <div className="bg-white  h-96 w-96  rounded-2xl relative flex justify-center ">
+          
+            <div className="flex shrink-0 bg-white  h-96 w-96  rounded-2xl relative  justify-center ">
               <img
                 src="https://www.apple.com/in/airpods/images/overview/tile_spatial_audio__c9aidaa6ntkm_large.jpg"
                 alt=""
+                className='hover:animate-pulse'
               />
               {/* <p className="text-black font-semibold ml-20 mt-3">iPhone</p> */}
             </div>
-          </Link>
+        
 
-          <Link to="/">
-            <div className="bg-white h-96 w-96  rounded-2xl relative flex justify-center items-center ">
+        
+            <div className="flex shrink-0 bg-white h-96 w-96  rounded-2xl relative  justify-center items-center ">
               <img
                 src="https://www.apple.com/in/airpods/images/overview/tile_audio_sharing__ord9ku1kssq6_large.jpg"
                 alt=""
+                className='hover:animate-pulse'
               />
               {/* <p className="text-black font-semibold ml-20 mt-3">iPad</p> */}
             </div>{" "}
-          </Link>
+        
 
-          <Link to="/">
-            <div className="bg-white  h-96 w-96  rounded-2xl relative flex justify-center items-center">
+        
+            <div className="flex shrink-0 bg-white  h-96 w-96  rounded-2xl relative  justify-center items-center">
               <img
                 src="https://www.apple.com/v/airpods/u/images/overview/tile_automatic_switching__etjisgj91gk2_large.jpg"
                 alt=""
+                className='hover:animate-bounce'
               />
               {/* <p className="text-black font-semibold ml-16 mt-2">Apple Watch</p> */}
             </div>{" "}
-          </Link>
+         
 
-          <Link to="/">
-            <div className="bg-white h-96 w-96  rounded-2xl relative flex justify-center items-center ">
+          
+            <div className="flex shrink-0 bg-white h-96 w-96  rounded-2xl relative  justify-center items-center ">
               <img
                 src="https://www.apple.com/v/airpods/u/images/overview/tile_siri__8ksinuow82qq_large.jpg"
                 alt=""
+                className='hover:animate-spin'
               />
               {/* <p className="text-black font-semibold ml-20 mt-2">AirPods</p> */}
             </div>{" "}
-          </Link>
+          
 
-          <Link to="/">
-            <div className="bg-white  h-96 w-96  rounded-2xl relative flex justify-center items-center ">
+         
+            <div className="flex shrink-0 bg-white  h-96 w-96  rounded-2xl relative  justify-center items-center ">
               <img
                 src="https://www.apple.com/v/airpods/u/images/overview/tile_accessibility__dx54ht0ycb8m_large.jpg"
                 alt=""
+                className='hover:animate-spin'
               />
               {/* <p className="text-black font-semibold ml-20 mt-2">AirTag</p> */}
             </div>{" "}
-          </Link>
+          
 
      
         </div>
