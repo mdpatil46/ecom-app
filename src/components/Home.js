@@ -401,8 +401,8 @@ function Main() {
           </div>
 
           {firstModel && (
-            <div className="fixed inset-0 bg-gray-400 bg-opacity-95 flex items-center justify-center"  style={{ zIndex: 1000 }}>
-              <div className="bg-white p-6 h-96 w-10/12 rounded shadow-lg overflow-y-auto no-scrollbar  whitespace-normal">
+            <div className="fixed inset-0 bg-gray-500  bg-opacity-99 flex items-center justify-center"  style={{ zIndex: 1000 }}>
+              <div className="bg-white p-6 h-96 w-10/12 rounded-xl shadow-lg overflow-y-scroll no-scrollbar  whitespace-normal  m-2 sm:m-1">
                 <h1 className="text-4xl font-bold"> Test Model</h1>
                 <p className="text-xl font-semibold mt-5">
                   This is the modal content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolorum sit laboriosam quos veritatis vel ad quibusdam rem. Fugiat modi beatae perspiciatis laborum cupiditate quas impedit vel facilis asperiores tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero fugit repellat facere amet consequuntur fuga tenetur tempora a odio nulla in explicabo aspernatur, veniam natus quisquam minima. Facilis, sed? Cupiditate!
@@ -411,7 +411,7 @@ function Main() {
                   onClick={() => {
                     setFirstModel(false);
                   }}
-                  className="bg-red-500 text-white py-2 px-4 rounded mt-28"
+                  className="bg-red-500 text-white py-2 px-4 rounded mt-24"
                 >
                   Close Modal
                 </button>

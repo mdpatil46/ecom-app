@@ -10,7 +10,7 @@ function Contact() {
     }
 
     function gmail() {
-        window.location.href = "govindapatil46@gmail.com"
+       
     }
 
     return (
@@ -24,10 +24,10 @@ rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:s
                     <div className="text-center space-y-2 sm:text-left">
                         <div className="space-y-0.5">
                             <p className="text-lg text-yellow-500 font-semibold">
-                                Mr. Govinda Patil
+                                 Govinda Patil
                             </p>
                             <p className="text-slate-500 font-medium">
-                                Web Devloper
+                                Frontend Devloper
                             </p>
                         </div>
                         <button onClick={WhatsApp}
