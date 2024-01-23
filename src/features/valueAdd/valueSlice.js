@@ -4,6 +4,8 @@ const initialState = {
    names: '',
    amount : '',
    photo : '',
+   photostate: '',
+   showdiv : false,
    
 }
 
@@ -21,11 +23,17 @@ export const valueSlice = createSlice({
 
      setphoto : (state, action)=>{
      state.photo = action.payload;
-     }
+     },
+     setState:(state,action) =>{
+      state.photostate = action.payload
+    },
+    setShowdiv: (state, action) => {
+      state.showdiv = action.payload;
+    },
        
     }
 });
 
-export const {increment, addamount, setphoto } = valueSlice.actions
+export const {increment, addamount, setphoto, setState, setShowdiv } = valueSlice.actions
 
 export default valueSlice.reducer
