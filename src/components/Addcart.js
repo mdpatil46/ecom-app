@@ -32,7 +32,7 @@ export default function Addcart() {
 
   return (
     <>
-     {heding && ( <div className="flex  items-center justify-center mt-12">
+     {heding && ( <div className="flex  items-center justify-center mt-12 sm:ml-2 sm:mr-2 overflow-hidden">
         <div className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-gray-100 bg-clip-border text-gray-700 shadow-md">
           <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700 p-3 ">
             <img
@@ -99,17 +99,17 @@ export default function Addcart() {
       </div>)}
      
 
-   {showdiv && (<div className="flex  items-center justify-center mt-8">
+   {showdiv && (<div className="flex  items-center justify-center mt-8 overflow-hidden">
         <div className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-gray-100 bg-clip-border text-gray-700 shadow-md">
           <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700 p-3 ">
             <img
               src={addimg}
               alt="YourPakj"
-              className="h-full w-full object-cover p-3"
+              className="h-full w-full object-contain sm:object-cover p-3 sm:p-1"
             />
           </div>
           <div className="p-6">
-            <div className="flex relative space-x-28">
+            <div className="flex  flex-col sm:flex-row  sm:space-x-28">
               <p className="mb-2 block font-sans text-xl font-bold leading-snug tracking-normal text-black antialiased">
                 {name}
               </p>
@@ -122,7 +122,7 @@ export default function Addcart() {
             Eligible for FREE Shipping
             </p>
             <p className="mb-4 block font-sans text-base font-semibold leading-relaxed text-black antialiased">
-            Colour: White Titanium
+            Colour:Titanium
             </p>
             <p className="mb-4 block font-sans text-base font-semibold leading-relaxed text-black antialiased">
             Size: 256 GB

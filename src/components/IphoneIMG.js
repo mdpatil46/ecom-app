@@ -3,7 +3,7 @@ import React from "react";
 export default function IphoneIMG() {
   return (
     <>
-      <div className="bg-black  ">
+      <div className="bg-black overflow-hidden">
         <div className="flex justify-center items-center relative h-screen">
           <img
             src="https://www.apple.com/in/iphone-15-pro/images/overview/welcome/hero_endframe__ov6ewwmbhiqq_large.jpg"
