@@ -18,15 +18,15 @@ export default function Addcart() {
 
   useEffect(()=>{
     setShowdiv(reduxShowdiv);
-    if ( reduxShowdiv) {
-    setHeding(false)
-    
-    }else{
-      setHeding(true)
-     
-    }
 
-   
+    // setShowdiv((prevShowdiv)=>{
+
+      if ( reduxShowdiv) {
+        setHeding(false)
+      }else{
+        setHeding(true)  
+      }
+    // },[reduxShowdiv]); 
   },[reduxShowdiv, ])
 
 
