@@ -32,6 +32,9 @@ export default function Addcart() {
 
   return (
     <>
+    <div className="flex flex-row space-x-80 ">
+      <div className="">
+
      {heding && ( <div className="flex  items-center justify-center mt-12 sm:ml-2 sm:mr-2 overflow-hidden">
         <div className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-gray-100 bg-clip-border text-gray-700 shadow-md">
           <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700 p-3 ">
@@ -98,7 +101,6 @@ export default function Addcart() {
         </div>
       </div>)}
      
-
    {showdiv && (<div className="flex  items-center justify-center mt-8 overflow-hidden">
         <div className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-gray-100 bg-clip-border text-gray-700 shadow-md">
           <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700 p-3 ">
@@ -145,6 +147,15 @@ export default function Addcart() {
           </div>
         </div>
       </div>)}
+      </div>
+      
+  
+      <div className="fixed m-5 mt-20   h-screen w-72 float-right
+       p-4 top-0 right-0 bg-gray-200" >
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque itaque optio ex, repudiandae accusantium, beatae impedit reprehenderit quaerat eos harum eius nihil necessitatibus esse! Delectus necessitatibus id facilis voluptatum?</p>
+      </div>
+   
+    </div>
 
     {/* <div className="flex  items-center justify-center mt-8">
         <div className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-gray-100 bg-clip-border text-gray-700 shadow-md">
