@@ -365,9 +365,7 @@ function Main() {
           className="flex justify-relative space-x-6 mt-10 ml-5 sm:ml-20 mr-5 sm:mr-10 overflow-x-scroll overflow-y-hidden no-scrollbar  scroll whitespace-nowrap scroll-smooth  "
           id="my"
         >
-          <div
-            className="bg-white  h-64 w-72  rounded-2xl   transform hover:scale-105 transition-transform duration-500 ease-in-out"
-            onClick={myModel}
+          <div className="bg-white  h-64 w-72  rounded-2xl   transform hover:scale-105 transition-transform duration-500 ease-in-out" onClick={myModel}
           >
             <div className="absolute top-6 left-7">
               <svg
