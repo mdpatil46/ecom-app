@@ -6,15 +6,30 @@ import {
   increment,
   setShowdiv,
 } from "../features/valueAdd/valueSlice";
+
 function Allinone() {
   const dispatch = useDispatch();
 
   function clicktoChange(e) {
     let value = "₹1,50,000.00";
     dispatch(addamount(value));
-
+    
     let iPhoto =
       "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg";
+    dispatch(setphoto(iPhoto));
+
+    let name = "Iphone 15 Pro Max";
+    dispatch(increment(name));
+
+    dispatch(setShowdiv(true));
+  }
+
+  function clicktoChange1(){
+    let value = "₹1,50,000.00";
+    dispatch(addamount(value));
+
+    let iPhoto =
+      "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-plus-.jpg";
     dispatch(setphoto(iPhoto));
 
     let name = "Iphone 15 Pro Max";
@@ -26,6 +41,7 @@ function Allinone() {
   return (
     <>
       <div className=" mx-auto p-4 flex flex-wrap justify-center space-x-2 bg-gray-200 mt-0">
+
         <div className="bg-white  border border-gray-300 rounded-2xl box-content h-90 w-60 p-4 mt-2">
           <img
             src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg"
@@ -80,14 +96,14 @@ function Allinone() {
             <span className="text-xl font-bold">&#8377;1,50,000</span>
             <button
               className="bg-blue-700 text-white px-3 py-1 rounded-2xl hover:bg-blue-800 font-bold"
-              onClick={clicktoChange}
+              onClick={clicktoChange1}
             >
               Add to Cart
             </button>
           </div>
         </div>
 
-        <div className="bg-white  border border-gray-300 rounded-2xl box-content h-90 w-60 p-4 mt-2">
+        {/* <div className="bg-white  border border-gray-300 rounded-2xl box-content h-90 w-60 p-4 mt-2">
           <img
             src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg"
             alt="Product"
@@ -262,7 +278,8 @@ function Allinone() {
               Add to Cart
             </button>
           </div>
-        </div>
+        </div> */}
+
       </div>
     </>
   );
