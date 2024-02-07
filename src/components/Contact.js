@@ -16,7 +16,7 @@ function Contact() {
        window.location.href = "https://mdpatil46.github.io/Resume-/"
     }
     function portfolio() {
-       window.location.href = ""
+       window.location.href = "https://govinda-portfolio.netlify.app/"
     }
 
     return (

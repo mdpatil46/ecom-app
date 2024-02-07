@@ -13,8 +13,6 @@ export default function Addcart() {
 
   const [heding, setHeding] = useState (true);
 
-
-
   const reduxShowdiv = useSelector((state)=>state.counter.showdiv)
 
   useEffect(()=>{
@@ -152,9 +150,10 @@ export default function Addcart() {
             </div>
           )}
         </div>
+        {/* aside bar  */}
         <div
-          className="fixed m-5 mt-20   h-screen w-72 float-right
-       p-4 top-0 right-0 bg-gray-200"
+          className=" fixed mt-20   h-screen w-72 float-right
+       p-4 right-0 top-0 bg-gray-200"
         >
           {showdiv && (
             <>
